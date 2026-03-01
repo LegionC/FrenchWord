@@ -1,0 +1,4142 @@
+[
+  {
+    "id": "fr_0001",
+    "fr": "bonjour",
+    "en": "hello; good morning",
+    "pos": "interj.",
+    "ipa": "/bɔ̃.ʒuʁ/",
+    "example_fr": "Bonjour !",
+    "example_en": "Hello!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0002",
+    "fr": "bonsoir",
+    "en": "good evening",
+    "pos": "interj.",
+    "ipa": "/bɔ̃.swaʁ/",
+    "example_fr": "Bonsoir, madame.",
+    "example_en": "Good evening, madam.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0003",
+    "fr": "bonne nuit",
+    "en": "good night",
+    "pos": "expr.",
+    "ipa": "/bɔn nɥi/",
+    "example_fr": "Bonne nuit !",
+    "example_en": "Good night!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0004",
+    "fr": "salut",
+    "en": "hi; bye",
+    "pos": "interj.",
+    "ipa": "/sa.ly/",
+    "example_fr": "Salut, ça va ?",
+    "example_en": "Hi, how's it going?",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0005",
+    "fr": "au revoir",
+    "en": "goodbye",
+    "pos": "interj.",
+    "ipa": "/o ʁə.vwaʁ/",
+    "example_fr": "Au revoir !",
+    "example_en": "Goodbye!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0006",
+    "fr": "à bientôt",
+    "en": "see you soon",
+    "pos": "expr.",
+    "ipa": "/a bjɛ̃.to/",
+    "example_fr": "À bientôt !",
+    "example_en": "See you soon!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0007",
+    "fr": "merci",
+    "en": "thank you",
+    "pos": "interj.",
+    "ipa": "/mɛʁ.si/",
+    "example_fr": "Merci beaucoup !",
+    "example_en": "Thank you very much!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0008",
+    "fr": "s'il vous plaît",
+    "en": "please (formal)",
+    "pos": "expr.",
+    "ipa": "/sil vu plɛ/",
+    "example_fr": "S'il vous plaît.",
+    "example_en": "Please.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0009",
+    "fr": "de rien",
+    "en": "you're welcome",
+    "pos": "expr.",
+    "ipa": "/də ʁjɛ̃/",
+    "example_fr": "De rien !",
+    "example_en": "You're welcome!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0010",
+    "fr": "excusez-moi",
+    "en": "excuse me",
+    "pos": "expr.",
+    "ipa": "/ɛk.sky.ze mwa/",
+    "example_fr": "Excusez-moi !",
+    "example_en": "Excuse me!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0011",
+    "fr": "pardon",
+    "en": "sorry; pardon",
+    "pos": "interj.",
+    "ipa": "/paʁ.dɔ̃/",
+    "example_fr": "Pardon, monsieur.",
+    "example_en": "Sorry, sir.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0012",
+    "fr": "bienvenue",
+    "en": "welcome",
+    "pos": "interj.",
+    "ipa": "/bjɛ̃.vny/",
+    "example_fr": "Bienvenue en France !",
+    "example_en": "Welcome to France!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0013",
+    "fr": "enchanté",
+    "en": "nice to meet you",
+    "pos": "adj.",
+    "ipa": "/ɑ̃.ʃɑ̃.te/",
+    "example_fr": "Enchanté !",
+    "example_en": "Nice to meet you!",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0014",
+    "fr": "oui",
+    "en": "yes",
+    "pos": "adv.",
+    "ipa": "/wi/",
+    "example_fr": "Oui, bien sûr.",
+    "example_en": "Yes, of course.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0015",
+    "fr": "non",
+    "en": "no",
+    "pos": "adv.",
+    "ipa": "/nɔ̃/",
+    "example_fr": "Non, merci.",
+    "example_en": "No, thank you.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0016",
+    "fr": "monsieur",
+    "en": "sir; mister",
+    "pos": "n.m.",
+    "ipa": "/mə.sjø/",
+    "example_fr": "Bonjour, monsieur.",
+    "example_en": "Hello, sir.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0017",
+    "fr": "madame",
+    "en": "madam; Mrs.",
+    "pos": "n.f.",
+    "ipa": "/ma.dam/",
+    "example_fr": "Merci, madame.",
+    "example_en": "Thank you, madam.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0018",
+    "fr": "comment",
+    "en": "how",
+    "pos": "adv.",
+    "ipa": "/kɔ.mɑ̃/",
+    "example_fr": "Comment allez-vous ?",
+    "example_en": "How are you?",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0019",
+    "fr": "bien",
+    "en": "well; good",
+    "pos": "adv.",
+    "ipa": "/bjɛ̃/",
+    "example_fr": "Très bien, merci.",
+    "example_en": "Very well, thank you.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0020",
+    "fr": "mal",
+    "en": "badly; bad",
+    "pos": "adv.",
+    "ipa": "/mal/",
+    "example_fr": "J'ai mal à la tête.",
+    "example_en": "I have a headache.",
+    "theme": "Greetings & Politeness"
+  },
+  {
+    "id": "fr_0021",
+    "fr": "zéro",
+    "en": "zero",
+    "pos": "num.",
+    "ipa": "/ze.ʁo/",
+    "example_fr": "Le score est zéro.",
+    "example_en": "The score is zero.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0022",
+    "fr": "un",
+    "en": "one",
+    "pos": "num.",
+    "ipa": "/œ̃/",
+    "example_fr": "J'ai un frère.",
+    "example_en": "I have one brother.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0023",
+    "fr": "deux",
+    "en": "two",
+    "pos": "num.",
+    "ipa": "/dø/",
+    "example_fr": "J'ai deux sœurs.",
+    "example_en": "I have two sisters.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0024",
+    "fr": "trois",
+    "en": "three",
+    "pos": "num.",
+    "ipa": "/tʁwa/",
+    "example_fr": "Il y a trois chats.",
+    "example_en": "There are three cats.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0025",
+    "fr": "quatre",
+    "en": "four",
+    "pos": "num.",
+    "ipa": "/katʁ/",
+    "example_fr": "Quatre saisons.",
+    "example_en": "Four seasons.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0026",
+    "fr": "cinq",
+    "en": "five",
+    "pos": "num.",
+    "ipa": "/sɛ̃k/",
+    "example_fr": "Cinq minutes.",
+    "example_en": "Five minutes.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0027",
+    "fr": "six",
+    "en": "six",
+    "pos": "num.",
+    "ipa": "/sis/",
+    "example_fr": "Six euros.",
+    "example_en": "Six euros.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0028",
+    "fr": "sept",
+    "en": "seven",
+    "pos": "num.",
+    "ipa": "/sɛt/",
+    "example_fr": "Sept jours.",
+    "example_en": "Seven days.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0029",
+    "fr": "huit",
+    "en": "eight",
+    "pos": "num.",
+    "ipa": "/ɥit/",
+    "example_fr": "Huit heures.",
+    "example_en": "Eight o'clock.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0030",
+    "fr": "neuf",
+    "en": "nine",
+    "pos": "num.",
+    "ipa": "/nœf/",
+    "example_fr": "Neuf mois.",
+    "example_en": "Nine months.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0031",
+    "fr": "dix",
+    "en": "ten",
+    "pos": "num.",
+    "ipa": "/dis/",
+    "example_fr": "Dix personnes.",
+    "example_en": "Ten people.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0032",
+    "fr": "onze",
+    "en": "eleven",
+    "pos": "num.",
+    "ipa": "/ɔ̃z/",
+    "example_fr": "Onze joueurs.",
+    "example_en": "Eleven players.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0033",
+    "fr": "douze",
+    "en": "twelve",
+    "pos": "num.",
+    "ipa": "/duz/",
+    "example_fr": "Douze mois.",
+    "example_en": "Twelve months.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0034",
+    "fr": "treize",
+    "en": "thirteen",
+    "pos": "num.",
+    "ipa": "/tʁɛz/",
+    "example_fr": "Treize ans.",
+    "example_en": "Thirteen years old.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0035",
+    "fr": "quatorze",
+    "en": "fourteen",
+    "pos": "num.",
+    "ipa": "/ka.tɔʁz/",
+    "example_fr": "Quatorze juillet.",
+    "example_en": "The fourteenth of July.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0036",
+    "fr": "quinze",
+    "en": "fifteen",
+    "pos": "num.",
+    "ipa": "/kɛ̃z/",
+    "example_fr": "Quinze minutes.",
+    "example_en": "Fifteen minutes.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0037",
+    "fr": "seize",
+    "en": "sixteen",
+    "pos": "num.",
+    "ipa": "/sɛz/",
+    "example_fr": "Seize ans.",
+    "example_en": "Sixteen years old.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0038",
+    "fr": "vingt",
+    "en": "twenty",
+    "pos": "num.",
+    "ipa": "/vɛ̃/",
+    "example_fr": "Vingt euros.",
+    "example_en": "Twenty euros.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0039",
+    "fr": "trente",
+    "en": "thirty",
+    "pos": "num.",
+    "ipa": "/tʁɑ̃t/",
+    "example_fr": "Trente degrés.",
+    "example_en": "Thirty degrees.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0040",
+    "fr": "quarante",
+    "en": "forty",
+    "pos": "num.",
+    "ipa": "/ka.ʁɑ̃t/",
+    "example_fr": "Quarante ans.",
+    "example_en": "Forty years.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0041",
+    "fr": "cinquante",
+    "en": "fifty",
+    "pos": "num.",
+    "ipa": "/sɛ̃.kɑ̃t/",
+    "example_fr": "Cinquante pour cent.",
+    "example_en": "Fifty percent.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0042",
+    "fr": "soixante",
+    "en": "sixty",
+    "pos": "num.",
+    "ipa": "/swa.sɑ̃t/",
+    "example_fr": "Soixante secondes.",
+    "example_en": "Sixty seconds.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0043",
+    "fr": "cent",
+    "en": "one hundred",
+    "pos": "num.",
+    "ipa": "/sɑ̃/",
+    "example_fr": "Cent euros.",
+    "example_en": "One hundred euros.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0044",
+    "fr": "mille",
+    "en": "one thousand",
+    "pos": "num.",
+    "ipa": "/mil/",
+    "example_fr": "Mille mercis !",
+    "example_en": "A thousand thanks!",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0045",
+    "fr": "premier",
+    "en": "first",
+    "pos": "adj.",
+    "ipa": "/pʁə.mje/",
+    "example_fr": "Le premier jour.",
+    "example_en": "The first day.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0046",
+    "fr": "deuxième",
+    "en": "second",
+    "pos": "adj.",
+    "ipa": "/dø.zjɛm/",
+    "example_fr": "La deuxième fois.",
+    "example_en": "The second time.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0047",
+    "fr": "troisième",
+    "en": "third",
+    "pos": "adj.",
+    "ipa": "/tʁwa.zjɛm/",
+    "example_fr": "Le troisième étage.",
+    "example_en": "The third floor.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0048",
+    "fr": "dernier",
+    "en": "last",
+    "pos": "adj.",
+    "ipa": "/dɛʁ.nje/",
+    "example_fr": "Le dernier train.",
+    "example_en": "The last train.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0049",
+    "fr": "moitié",
+    "en": "half",
+    "pos": "n.f.",
+    "ipa": "/mwa.tje/",
+    "example_fr": "La moitié du gâteau.",
+    "example_en": "Half of the cake.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0050",
+    "fr": "nombre",
+    "en": "number",
+    "pos": "n.m.",
+    "ipa": "/nɔ̃bʁ/",
+    "example_fr": "Un grand nombre.",
+    "example_en": "A large number.",
+    "theme": "Numbers"
+  },
+  {
+    "id": "fr_0051",
+    "fr": "rouge",
+    "en": "red",
+    "pos": "adj.",
+    "ipa": "/ʁuʒ/",
+    "example_fr": "Une rose rouge.",
+    "example_en": "A red rose.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0052",
+    "fr": "bleu",
+    "en": "blue",
+    "pos": "adj.",
+    "ipa": "/blø/",
+    "example_fr": "Le ciel est bleu.",
+    "example_en": "The sky is blue.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0053",
+    "fr": "vert",
+    "en": "green",
+    "pos": "adj.",
+    "ipa": "/vɛʁ/",
+    "example_fr": "L'herbe est verte.",
+    "example_en": "The grass is green.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0054",
+    "fr": "jaune",
+    "en": "yellow",
+    "pos": "adj.",
+    "ipa": "/ʒon/",
+    "example_fr": "Le soleil est jaune.",
+    "example_en": "The sun is yellow.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0055",
+    "fr": "blanc",
+    "en": "white",
+    "pos": "adj.",
+    "ipa": "/blɑ̃/",
+    "example_fr": "La neige est blanche.",
+    "example_en": "The snow is white.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0056",
+    "fr": "noir",
+    "en": "black",
+    "pos": "adj.",
+    "ipa": "/nwaʁ/",
+    "example_fr": "Un chat noir.",
+    "example_en": "A black cat.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0057",
+    "fr": "gris",
+    "en": "grey",
+    "pos": "adj.",
+    "ipa": "/ɡʁi/",
+    "example_fr": "Un ciel gris.",
+    "example_en": "A grey sky.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0058",
+    "fr": "rose",
+    "en": "pink",
+    "pos": "adj.",
+    "ipa": "/ʁoz/",
+    "example_fr": "Une robe rose.",
+    "example_en": "A pink dress.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0059",
+    "fr": "orange",
+    "en": "orange",
+    "pos": "adj.",
+    "ipa": "/ɔ.ʁɑ̃ʒ/",
+    "example_fr": "Un jus d'orange.",
+    "example_en": "An orange juice.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0060",
+    "fr": "violet",
+    "en": "purple",
+    "pos": "adj.",
+    "ipa": "/vjɔ.lɛ/",
+    "example_fr": "Des fleurs violettes.",
+    "example_en": "Purple flowers.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0061",
+    "fr": "marron",
+    "en": "brown",
+    "pos": "adj.",
+    "ipa": "/ma.ʁɔ̃/",
+    "example_fr": "Des yeux marron.",
+    "example_en": "Brown eyes.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0062",
+    "fr": "clair",
+    "en": "light; bright",
+    "pos": "adj.",
+    "ipa": "/klɛʁ/",
+    "example_fr": "Bleu clair.",
+    "example_en": "Light blue.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0063",
+    "fr": "foncé",
+    "en": "dark (color)",
+    "pos": "adj.",
+    "ipa": "/fɔ̃.se/",
+    "example_fr": "Vert foncé.",
+    "example_en": "Dark green.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0064",
+    "fr": "doré",
+    "en": "golden",
+    "pos": "adj.",
+    "ipa": "/dɔ.ʁe/",
+    "example_fr": "Une lumière dorée.",
+    "example_en": "A golden light.",
+    "theme": "Colors"
+  },
+  {
+    "id": "fr_0065",
+    "fr": "lundi",
+    "en": "Monday",
+    "pos": "n.m.",
+    "ipa": "/lœ̃.di/",
+    "example_fr": "Lundi, je travaille.",
+    "example_en": "On Monday, I work.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0066",
+    "fr": "mardi",
+    "en": "Tuesday",
+    "pos": "n.m.",
+    "ipa": "/maʁ.di/",
+    "example_fr": "Mardi matin.",
+    "example_en": "Tuesday morning.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0067",
+    "fr": "mercredi",
+    "en": "Wednesday",
+    "pos": "n.m.",
+    "ipa": "/mɛʁ.kʁə.di/",
+    "example_fr": "Mercredi après-midi.",
+    "example_en": "Wednesday afternoon.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0068",
+    "fr": "jeudi",
+    "en": "Thursday",
+    "pos": "n.m.",
+    "ipa": "/ʒø.di/",
+    "example_fr": "Jeudi soir.",
+    "example_en": "Thursday evening.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0069",
+    "fr": "vendredi",
+    "en": "Friday",
+    "pos": "n.m.",
+    "ipa": "/vɑ̃.dʁə.di/",
+    "example_fr": "Vendredi prochain.",
+    "example_en": "Next Friday.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0070",
+    "fr": "samedi",
+    "en": "Saturday",
+    "pos": "n.m.",
+    "ipa": "/sam.di/",
+    "example_fr": "Samedi, je suis libre.",
+    "example_en": "On Saturday, I'm free.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0071",
+    "fr": "dimanche",
+    "en": "Sunday",
+    "pos": "n.m.",
+    "ipa": "/di.mɑ̃ʃ/",
+    "example_fr": "Dimanche au parc.",
+    "example_en": "Sunday at the park.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0072",
+    "fr": "janvier",
+    "en": "January",
+    "pos": "n.m.",
+    "ipa": "/ʒɑ̃.vje/",
+    "example_fr": "En janvier, il neige.",
+    "example_en": "In January, it snows.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0073",
+    "fr": "février",
+    "en": "February",
+    "pos": "n.m.",
+    "ipa": "/fe.vʁi.je/",
+    "example_fr": "Février est court.",
+    "example_en": "February is short.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0074",
+    "fr": "mars",
+    "en": "March",
+    "pos": "n.m.",
+    "ipa": "/maʁs/",
+    "example_fr": "Le mois de mars.",
+    "example_en": "The month of March.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0075",
+    "fr": "avril",
+    "en": "April",
+    "pos": "n.m.",
+    "ipa": "/a.vʁil/",
+    "example_fr": "En avril, il pleut.",
+    "example_en": "In April, it rains.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0076",
+    "fr": "mai",
+    "en": "May",
+    "pos": "n.m.",
+    "ipa": "/mɛ/",
+    "example_fr": "Le premier mai.",
+    "example_en": "The first of May.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0077",
+    "fr": "juin",
+    "en": "June",
+    "pos": "n.m.",
+    "ipa": "/ʒɥɛ̃/",
+    "example_fr": "Juin est chaud.",
+    "example_en": "June is warm.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0078",
+    "fr": "juillet",
+    "en": "July",
+    "pos": "n.m.",
+    "ipa": "/ʒɥi.jɛ/",
+    "example_fr": "Juillet, les vacances !",
+    "example_en": "July, the holidays!",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0079",
+    "fr": "août",
+    "en": "August",
+    "pos": "n.m.",
+    "ipa": "/ut/",
+    "example_fr": "Août est très chaud.",
+    "example_en": "August is very hot.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0080",
+    "fr": "septembre",
+    "en": "September",
+    "pos": "n.m.",
+    "ipa": "/sɛp.tɑ̃bʁ/",
+    "example_fr": "Septembre, la rentrée.",
+    "example_en": "September, back to school.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0081",
+    "fr": "octobre",
+    "en": "October",
+    "pos": "n.m.",
+    "ipa": "/ɔk.tɔbʁ/",
+    "example_fr": "Octobre est beau.",
+    "example_en": "October is beautiful.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0082",
+    "fr": "novembre",
+    "en": "November",
+    "pos": "n.m.",
+    "ipa": "/nɔ.vɑ̃bʁ/",
+    "example_fr": "Novembre est gris.",
+    "example_en": "November is grey.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0083",
+    "fr": "décembre",
+    "en": "December",
+    "pos": "n.m.",
+    "ipa": "/de.sɑ̃bʁ/",
+    "example_fr": "Décembre, c'est Noël.",
+    "example_en": "December, it's Christmas.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0084",
+    "fr": "aujourd'hui",
+    "en": "today",
+    "pos": "adv.",
+    "ipa": "/o.ʒuʁ.dɥi/",
+    "example_fr": "Aujourd'hui, il fait beau.",
+    "example_en": "Today, the weather is nice.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0085",
+    "fr": "demain",
+    "en": "tomorrow",
+    "pos": "adv.",
+    "ipa": "/də.mɛ̃/",
+    "example_fr": "À demain !",
+    "example_en": "See you tomorrow!",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0086",
+    "fr": "hier",
+    "en": "yesterday",
+    "pos": "adv.",
+    "ipa": "/jɛʁ/",
+    "example_fr": "Hier, j'étais fatigué.",
+    "example_en": "Yesterday, I was tired.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0087",
+    "fr": "matin",
+    "en": "morning",
+    "pos": "n.m.",
+    "ipa": "/ma.tɛ̃/",
+    "example_fr": "Ce matin.",
+    "example_en": "This morning.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0088",
+    "fr": "après-midi",
+    "en": "afternoon",
+    "pos": "n.m.",
+    "ipa": "/a.pʁɛ mi.di/",
+    "example_fr": "Cet après-midi.",
+    "example_en": "This afternoon.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0089",
+    "fr": "soir",
+    "en": "evening",
+    "pos": "n.m.",
+    "ipa": "/swaʁ/",
+    "example_fr": "Ce soir.",
+    "example_en": "This evening.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0090",
+    "fr": "nuit",
+    "en": "night",
+    "pos": "n.f.",
+    "ipa": "/nɥi/",
+    "example_fr": "Bonne nuit !",
+    "example_en": "Good night!",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0091",
+    "fr": "heure",
+    "en": "hour; time",
+    "pos": "n.f.",
+    "ipa": "/œʁ/",
+    "example_fr": "Quelle heure est-il ?",
+    "example_en": "What time is it?",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0092",
+    "fr": "minute",
+    "en": "minute",
+    "pos": "n.f.",
+    "ipa": "/mi.nyt/",
+    "example_fr": "Cinq minutes.",
+    "example_en": "Five minutes.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0093",
+    "fr": "semaine",
+    "en": "week",
+    "pos": "n.f.",
+    "ipa": "/sə.mɛn/",
+    "example_fr": "La semaine prochaine.",
+    "example_en": "Next week.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0094",
+    "fr": "mois",
+    "en": "month",
+    "pos": "n.m.",
+    "ipa": "/mwa/",
+    "example_fr": "Le mois de juin.",
+    "example_en": "The month of June.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0095",
+    "fr": "année",
+    "en": "year",
+    "pos": "n.f.",
+    "ipa": "/a.ne/",
+    "example_fr": "Bonne année !",
+    "example_en": "Happy New Year!",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0096",
+    "fr": "maintenant",
+    "en": "now",
+    "pos": "adv.",
+    "ipa": "/mɛ̃t.nɑ̃/",
+    "example_fr": "Maintenant, on y va.",
+    "example_en": "Now, let's go.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0097",
+    "fr": "tôt",
+    "en": "early",
+    "pos": "adv.",
+    "ipa": "/to/",
+    "example_fr": "Il arrive tôt.",
+    "example_en": "He arrives early.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0098",
+    "fr": "tard",
+    "en": "late",
+    "pos": "adv.",
+    "ipa": "/taʁ/",
+    "example_fr": "Il est tard.",
+    "example_en": "It's late.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0099",
+    "fr": "toujours",
+    "en": "always",
+    "pos": "adv.",
+    "ipa": "/tu.ʒuʁ/",
+    "example_fr": "Il est toujours là.",
+    "example_en": "He's always there.",
+    "theme": "Time & Dates"
+  },
+  {
+    "id": "fr_0100",
+    "fr": "père",
+    "en": "father",
+    "pos": "n.m.",
+    "ipa": "/pɛʁ/",
+    "example_fr": "Mon père travaille.",
+    "example_en": "My father works.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0101",
+    "fr": "mère",
+    "en": "mother",
+    "pos": "n.f.",
+    "ipa": "/mɛʁ/",
+    "example_fr": "Ma mère cuisine bien.",
+    "example_en": "My mother cooks well.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0102",
+    "fr": "fils",
+    "en": "son",
+    "pos": "n.m.",
+    "ipa": "/fis/",
+    "example_fr": "Mon fils a cinq ans.",
+    "example_en": "My son is five.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0103",
+    "fr": "fille",
+    "en": "daughter; girl",
+    "pos": "n.f.",
+    "ipa": "/fij/",
+    "example_fr": "Ma fille est grande.",
+    "example_en": "My daughter is tall.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0104",
+    "fr": "frère",
+    "en": "brother",
+    "pos": "n.m.",
+    "ipa": "/fʁɛʁ/",
+    "example_fr": "Mon frère aîné.",
+    "example_en": "My older brother.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0105",
+    "fr": "sœur",
+    "en": "sister",
+    "pos": "n.f.",
+    "ipa": "/sœʁ/",
+    "example_fr": "Ma petite sœur.",
+    "example_en": "My little sister.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0106",
+    "fr": "mari",
+    "en": "husband",
+    "pos": "n.m.",
+    "ipa": "/ma.ʁi/",
+    "example_fr": "Son mari est gentil.",
+    "example_en": "Her husband is kind.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0107",
+    "fr": "femme",
+    "en": "woman; wife",
+    "pos": "n.f.",
+    "ipa": "/fam/",
+    "example_fr": "Une femme élégante.",
+    "example_en": "An elegant woman.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0108",
+    "fr": "enfant",
+    "en": "child",
+    "pos": "n.m./f.",
+    "ipa": "/ɑ̃.fɑ̃/",
+    "example_fr": "Les enfants jouent.",
+    "example_en": "The children play.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0109",
+    "fr": "bébé",
+    "en": "baby",
+    "pos": "n.m.",
+    "ipa": "/be.be/",
+    "example_fr": "Le bébé dort.",
+    "example_en": "The baby sleeps.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0110",
+    "fr": "ami",
+    "en": "friend (m)",
+    "pos": "n.m.",
+    "ipa": "/a.mi/",
+    "example_fr": "Mon meilleur ami.",
+    "example_en": "My best friend.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0111",
+    "fr": "amie",
+    "en": "friend (f)",
+    "pos": "n.f.",
+    "ipa": "/a.mi/",
+    "example_fr": "Une bonne amie.",
+    "example_en": "A good friend.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0112",
+    "fr": "famille",
+    "en": "family",
+    "pos": "n.f.",
+    "ipa": "/fa.mij/",
+    "example_fr": "Ma famille est grande.",
+    "example_en": "My family is big.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0113",
+    "fr": "parent",
+    "en": "parent; relative",
+    "pos": "n.m.",
+    "ipa": "/pa.ʁɑ̃/",
+    "example_fr": "Mes parents habitent ici.",
+    "example_en": "My parents live here.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0114",
+    "fr": "grand-père",
+    "en": "grandfather",
+    "pos": "n.m.",
+    "ipa": "/ɡʁɑ̃.pɛʁ/",
+    "example_fr": "Mon grand-père lit.",
+    "example_en": "My grandfather reads.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0115",
+    "fr": "grand-mère",
+    "en": "grandmother",
+    "pos": "n.f.",
+    "ipa": "/ɡʁɑ̃.mɛʁ/",
+    "example_fr": "Ma grand-mère cuisine.",
+    "example_en": "My grandmother cooks.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0116",
+    "fr": "oncle",
+    "en": "uncle",
+    "pos": "n.m.",
+    "ipa": "/ɔ̃kl/",
+    "example_fr": "Mon oncle voyage.",
+    "example_en": "My uncle travels.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0117",
+    "fr": "tante",
+    "en": "aunt",
+    "pos": "n.f.",
+    "ipa": "/tɑ̃t/",
+    "example_fr": "Ma tante chante.",
+    "example_en": "My aunt sings.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0118",
+    "fr": "cousin",
+    "en": "cousin (m)",
+    "pos": "n.m.",
+    "ipa": "/ku.zɛ̃/",
+    "example_fr": "Mon cousin est à Paris.",
+    "example_en": "My cousin is in Paris.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0119",
+    "fr": "cousine",
+    "en": "cousin (f)",
+    "pos": "n.f.",
+    "ipa": "/ku.zin/",
+    "example_fr": "Ma cousine étudie.",
+    "example_en": "My cousin studies.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0120",
+    "fr": "voisin",
+    "en": "neighbour",
+    "pos": "n.m.",
+    "ipa": "/vwa.zɛ̃/",
+    "example_fr": "Mon voisin est sympa.",
+    "example_en": "My neighbour is nice.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0121",
+    "fr": "homme",
+    "en": "man",
+    "pos": "n.m.",
+    "ipa": "/ɔm/",
+    "example_fr": "Un jeune homme.",
+    "example_en": "A young man.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0122",
+    "fr": "garçon",
+    "en": "boy",
+    "pos": "n.m.",
+    "ipa": "/ɡaʁ.sɔ̃/",
+    "example_fr": "Un gentil garçon.",
+    "example_en": "A nice boy.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0123",
+    "fr": "personne",
+    "en": "person",
+    "pos": "n.f.",
+    "ipa": "/pɛʁ.sɔn/",
+    "example_fr": "Une bonne personne.",
+    "example_en": "A good person.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0124",
+    "fr": "gens",
+    "en": "people",
+    "pos": "n.m.pl.",
+    "ipa": "/ʒɑ̃/",
+    "example_fr": "Beaucoup de gens.",
+    "example_en": "Many people.",
+    "theme": "Family & People"
+  },
+  {
+    "id": "fr_0125",
+    "fr": "pain",
+    "en": "bread",
+    "pos": "n.m.",
+    "ipa": "/pɛ̃/",
+    "example_fr": "Du pain frais.",
+    "example_en": "Fresh bread.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0126",
+    "fr": "eau",
+    "en": "water",
+    "pos": "n.f.",
+    "ipa": "/o/",
+    "example_fr": "Un verre d'eau.",
+    "example_en": "A glass of water.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0127",
+    "fr": "café",
+    "en": "coffee",
+    "pos": "n.m.",
+    "ipa": "/ka.fe/",
+    "example_fr": "Un café, s'il vous plaît.",
+    "example_en": "A coffee, please.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0128",
+    "fr": "thé",
+    "en": "tea",
+    "pos": "n.m.",
+    "ipa": "/te/",
+    "example_fr": "Un thé vert.",
+    "example_en": "A green tea.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0129",
+    "fr": "lait",
+    "en": "milk",
+    "pos": "n.m.",
+    "ipa": "/lɛ/",
+    "example_fr": "Du lait chaud.",
+    "example_en": "Hot milk.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0130",
+    "fr": "vin",
+    "en": "wine",
+    "pos": "n.m.",
+    "ipa": "/vɛ̃/",
+    "example_fr": "Un verre de vin rouge.",
+    "example_en": "A glass of red wine.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0131",
+    "fr": "bière",
+    "en": "beer",
+    "pos": "n.f.",
+    "ipa": "/bjɛʁ/",
+    "example_fr": "Une bière blonde.",
+    "example_en": "A lager beer.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0132",
+    "fr": "jus",
+    "en": "juice",
+    "pos": "n.m.",
+    "ipa": "/ʒy/",
+    "example_fr": "Un jus d'orange.",
+    "example_en": "An orange juice.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0133",
+    "fr": "fromage",
+    "en": "cheese",
+    "pos": "n.m.",
+    "ipa": "/fʁɔ.maʒ/",
+    "example_fr": "Du fromage français.",
+    "example_en": "French cheese.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0134",
+    "fr": "beurre",
+    "en": "butter",
+    "pos": "n.m.",
+    "ipa": "/bœʁ/",
+    "example_fr": "Du beurre sur le pain.",
+    "example_en": "Butter on the bread.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0135",
+    "fr": "œuf",
+    "en": "egg",
+    "pos": "n.m.",
+    "ipa": "/œf/",
+    "example_fr": "Un œuf dur.",
+    "example_en": "A hard-boiled egg.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0136",
+    "fr": "viande",
+    "en": "meat",
+    "pos": "n.f.",
+    "ipa": "/vjɑ̃d/",
+    "example_fr": "De la viande grillée.",
+    "example_en": "Grilled meat.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0137",
+    "fr": "poulet",
+    "en": "chicken",
+    "pos": "n.m.",
+    "ipa": "/pu.lɛ/",
+    "example_fr": "Du poulet rôti.",
+    "example_en": "Roast chicken.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0138",
+    "fr": "poisson",
+    "en": "fish",
+    "pos": "n.m.",
+    "ipa": "/pwa.sɔ̃/",
+    "example_fr": "Du poisson frais.",
+    "example_en": "Fresh fish.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0139",
+    "fr": "riz",
+    "en": "rice",
+    "pos": "n.m.",
+    "ipa": "/ʁi/",
+    "example_fr": "Du riz blanc.",
+    "example_en": "White rice.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0140",
+    "fr": "pâtes",
+    "en": "pasta",
+    "pos": "n.f.pl.",
+    "ipa": "/pɑt/",
+    "example_fr": "Des pâtes au fromage.",
+    "example_en": "Pasta with cheese.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0141",
+    "fr": "salade",
+    "en": "salad",
+    "pos": "n.f.",
+    "ipa": "/sa.lad/",
+    "example_fr": "Une salade verte.",
+    "example_en": "A green salad.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0142",
+    "fr": "soupe",
+    "en": "soup",
+    "pos": "n.f.",
+    "ipa": "/sup/",
+    "example_fr": "Une soupe chaude.",
+    "example_en": "A hot soup.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0143",
+    "fr": "légume",
+    "en": "vegetable",
+    "pos": "n.m.",
+    "ipa": "/le.ɡym/",
+    "example_fr": "Des légumes frais.",
+    "example_en": "Fresh vegetables.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0144",
+    "fr": "fruit",
+    "en": "fruit",
+    "pos": "n.m.",
+    "ipa": "/fʁɥi/",
+    "example_fr": "Des fruits de saison.",
+    "example_en": "Seasonal fruits.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0145",
+    "fr": "pomme",
+    "en": "apple",
+    "pos": "n.f.",
+    "ipa": "/pɔm/",
+    "example_fr": "Une pomme rouge.",
+    "example_en": "A red apple.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0146",
+    "fr": "banane",
+    "en": "banana",
+    "pos": "n.f.",
+    "ipa": "/ba.nan/",
+    "example_fr": "Une banane mûre.",
+    "example_en": "A ripe banana.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0147",
+    "fr": "tomate",
+    "en": "tomato",
+    "pos": "n.f.",
+    "ipa": "/tɔ.mat/",
+    "example_fr": "Une tomate rouge.",
+    "example_en": "A red tomato.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0148",
+    "fr": "carotte",
+    "en": "carrot",
+    "pos": "n.f.",
+    "ipa": "/ka.ʁɔt/",
+    "example_fr": "Des carottes râpées.",
+    "example_en": "Grated carrots.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0149",
+    "fr": "pomme de terre",
+    "en": "potato",
+    "pos": "n.f.",
+    "ipa": "/pɔm də tɛʁ/",
+    "example_fr": "Des pommes de terre.",
+    "example_en": "Potatoes.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0150",
+    "fr": "sel",
+    "en": "salt",
+    "pos": "n.m.",
+    "ipa": "/sɛl/",
+    "example_fr": "Du sel, s'il vous plaît.",
+    "example_en": "Salt, please.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0151",
+    "fr": "poivre",
+    "en": "pepper",
+    "pos": "n.m.",
+    "ipa": "/pwavʁ/",
+    "example_fr": "Sel et poivre.",
+    "example_en": "Salt and pepper.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0152",
+    "fr": "sucre",
+    "en": "sugar",
+    "pos": "n.m.",
+    "ipa": "/sykʁ/",
+    "example_fr": "Avec ou sans sucre ?",
+    "example_en": "With or without sugar?",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0153",
+    "fr": "huile",
+    "en": "oil",
+    "pos": "n.f.",
+    "ipa": "/ɥil/",
+    "example_fr": "De l'huile d'olive.",
+    "example_en": "Olive oil.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0154",
+    "fr": "gâteau",
+    "en": "cake",
+    "pos": "n.m.",
+    "ipa": "/ɡɑ.to/",
+    "example_fr": "Un gâteau au chocolat.",
+    "example_en": "A chocolate cake.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0155",
+    "fr": "chocolat",
+    "en": "chocolate",
+    "pos": "n.m.",
+    "ipa": "/ʃɔ.kɔ.la/",
+    "example_fr": "Du chocolat noir.",
+    "example_en": "Dark chocolate.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0156",
+    "fr": "glace",
+    "en": "ice cream; ice",
+    "pos": "n.f.",
+    "ipa": "/ɡlas/",
+    "example_fr": "Une glace à la vanille.",
+    "example_en": "A vanilla ice cream.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0157",
+    "fr": "restaurant",
+    "en": "restaurant",
+    "pos": "n.m.",
+    "ipa": "/ʁɛs.to.ʁɑ̃/",
+    "example_fr": "Un bon restaurant.",
+    "example_en": "A good restaurant.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0158",
+    "fr": "petit-déjeuner",
+    "en": "breakfast",
+    "pos": "n.m.",
+    "ipa": "/pti de.ʒø.ne/",
+    "example_fr": "Le petit-déjeuner est prêt.",
+    "example_en": "Breakfast is ready.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0159",
+    "fr": "déjeuner",
+    "en": "lunch",
+    "pos": "n.m.",
+    "ipa": "/de.ʒø.ne/",
+    "example_fr": "On déjeune à midi.",
+    "example_en": "We have lunch at noon.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0160",
+    "fr": "dîner",
+    "en": "dinner",
+    "pos": "n.m.",
+    "ipa": "/di.ne/",
+    "example_fr": "Le dîner est servi.",
+    "example_en": "Dinner is served.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0161",
+    "fr": "repas",
+    "en": "meal",
+    "pos": "n.m.",
+    "ipa": "/ʁə.pɑ/",
+    "example_fr": "Un bon repas.",
+    "example_en": "A good meal.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0162",
+    "fr": "recette",
+    "en": "recipe",
+    "pos": "n.f.",
+    "ipa": "/ʁə.sɛt/",
+    "example_fr": "Une recette simple.",
+    "example_en": "A simple recipe.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0163",
+    "fr": "cuisine",
+    "en": "kitchen; cooking",
+    "pos": "n.f.",
+    "ipa": "/kɥi.zin/",
+    "example_fr": "La cuisine française.",
+    "example_en": "French cooking.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0164",
+    "fr": "assiette",
+    "en": "plate",
+    "pos": "n.f.",
+    "ipa": "/a.sjɛt/",
+    "example_fr": "Une assiette blanche.",
+    "example_en": "A white plate.",
+    "theme": "Food & Drinks"
+  },
+  {
+    "id": "fr_0165",
+    "fr": "voiture",
+    "en": "car",
+    "pos": "n.f.",
+    "ipa": "/vwa.tyʁ/",
+    "example_fr": "Une voiture rouge.",
+    "example_en": "A red car.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0166",
+    "fr": "bus",
+    "en": "bus",
+    "pos": "n.m.",
+    "ipa": "/bys/",
+    "example_fr": "Le bus arrive.",
+    "example_en": "The bus arrives.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0167",
+    "fr": "train",
+    "en": "train",
+    "pos": "n.m.",
+    "ipa": "/tʁɛ̃/",
+    "example_fr": "Le train de Paris.",
+    "example_en": "The Paris train.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0168",
+    "fr": "avion",
+    "en": "airplane",
+    "pos": "n.m.",
+    "ipa": "/a.vjɔ̃/",
+    "example_fr": "L'avion décolle.",
+    "example_en": "The plane takes off.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0169",
+    "fr": "vélo",
+    "en": "bicycle",
+    "pos": "n.m.",
+    "ipa": "/ve.lo/",
+    "example_fr": "Je fais du vélo.",
+    "example_en": "I ride a bicycle.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0170",
+    "fr": "métro",
+    "en": "subway",
+    "pos": "n.m.",
+    "ipa": "/me.tʁo/",
+    "example_fr": "La station de métro.",
+    "example_en": "The subway station.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0171",
+    "fr": "gare",
+    "en": "train station",
+    "pos": "n.f.",
+    "ipa": "/ɡaʁ/",
+    "example_fr": "La gare du Nord.",
+    "example_en": "The North station.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0172",
+    "fr": "aéroport",
+    "en": "airport",
+    "pos": "n.m.",
+    "ipa": "/a.e.ʁɔ.pɔʁ/",
+    "example_fr": "L'aéroport est loin.",
+    "example_en": "The airport is far.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0173",
+    "fr": "arrêt",
+    "en": "stop",
+    "pos": "n.m.",
+    "ipa": "/a.ʁɛ/",
+    "example_fr": "L'arrêt de bus.",
+    "example_en": "The bus stop.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0174",
+    "fr": "rue",
+    "en": "street",
+    "pos": "n.f.",
+    "ipa": "/ʁy/",
+    "example_fr": "Dans la rue.",
+    "example_en": "On the street.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0175",
+    "fr": "route",
+    "en": "road",
+    "pos": "n.f.",
+    "ipa": "/ʁut/",
+    "example_fr": "La bonne route.",
+    "example_en": "The right road.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0176",
+    "fr": "pont",
+    "en": "bridge",
+    "pos": "n.m.",
+    "ipa": "/pɔ̃/",
+    "example_fr": "Un vieux pont.",
+    "example_en": "An old bridge.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0177",
+    "fr": "ville",
+    "en": "city",
+    "pos": "n.f.",
+    "ipa": "/vil/",
+    "example_fr": "Une grande ville.",
+    "example_en": "A big city.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0178",
+    "fr": "village",
+    "en": "village",
+    "pos": "n.m.",
+    "ipa": "/vi.laʒ/",
+    "example_fr": "Un petit village.",
+    "example_en": "A small village.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0179",
+    "fr": "pays",
+    "en": "country",
+    "pos": "n.m.",
+    "ipa": "/pe.i/",
+    "example_fr": "Mon pays natal.",
+    "example_en": "My home country.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0180",
+    "fr": "place",
+    "en": "square; place",
+    "pos": "n.f.",
+    "ipa": "/plas/",
+    "example_fr": "La place du marché.",
+    "example_en": "The market square.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0181",
+    "fr": "parc",
+    "en": "park",
+    "pos": "n.m.",
+    "ipa": "/paʁk/",
+    "example_fr": "Le parc est beau.",
+    "example_en": "The park is beautiful.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0182",
+    "fr": "jardin",
+    "en": "garden",
+    "pos": "n.m.",
+    "ipa": "/ʒaʁ.dɛ̃/",
+    "example_fr": "Un jardin fleuri.",
+    "example_en": "A flowery garden.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0183",
+    "fr": "magasin",
+    "en": "shop; store",
+    "pos": "n.m.",
+    "ipa": "/ma.ɡa.zɛ̃/",
+    "example_fr": "Un grand magasin.",
+    "example_en": "A department store.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0184",
+    "fr": "école",
+    "en": "school",
+    "pos": "n.f.",
+    "ipa": "/e.kɔl/",
+    "example_fr": "L'école est fermée.",
+    "example_en": "The school is closed.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0185",
+    "fr": "hôpital",
+    "en": "hospital",
+    "pos": "n.m.",
+    "ipa": "/o.pi.tal/",
+    "example_fr": "L'hôpital est proche.",
+    "example_en": "The hospital is nearby.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0186",
+    "fr": "église",
+    "en": "church",
+    "pos": "n.f.",
+    "ipa": "/e.ɡliz/",
+    "example_fr": "Une vieille église.",
+    "example_en": "An old church.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0187",
+    "fr": "musée",
+    "en": "museum",
+    "pos": "n.m.",
+    "ipa": "/my.ze/",
+    "example_fr": "Le musée du Louvre.",
+    "example_en": "The Louvre Museum.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0188",
+    "fr": "bibliothèque",
+    "en": "library",
+    "pos": "n.f.",
+    "ipa": "/bi.bli.ɔ.tɛk/",
+    "example_fr": "La bibliothèque municipale.",
+    "example_en": "The municipal library.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0189",
+    "fr": "bureau",
+    "en": "office; desk",
+    "pos": "n.m.",
+    "ipa": "/by.ʁo/",
+    "example_fr": "Au bureau.",
+    "example_en": "At the office.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0190",
+    "fr": "banque",
+    "en": "bank",
+    "pos": "n.f.",
+    "ipa": "/bɑ̃k/",
+    "example_fr": "La banque est ouverte.",
+    "example_en": "The bank is open.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0191",
+    "fr": "hôtel",
+    "en": "hotel",
+    "pos": "n.m.",
+    "ipa": "/o.tɛl/",
+    "example_fr": "Un hôtel confortable.",
+    "example_en": "A comfortable hotel.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0192",
+    "fr": "pharmacie",
+    "en": "pharmacy",
+    "pos": "n.f.",
+    "ipa": "/faʁ.ma.si/",
+    "example_fr": "La pharmacie est là.",
+    "example_en": "The pharmacy is there.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0193",
+    "fr": "marché",
+    "en": "market",
+    "pos": "n.m.",
+    "ipa": "/maʁ.ʃe/",
+    "example_fr": "Le marché du dimanche.",
+    "example_en": "The Sunday market.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0194",
+    "fr": "centre",
+    "en": "center",
+    "pos": "n.m.",
+    "ipa": "/sɑ̃tʁ/",
+    "example_fr": "Le centre-ville.",
+    "example_en": "The city center.",
+    "theme": "Transport & Places"
+  },
+  {
+    "id": "fr_0195",
+    "fr": "être",
+    "en": "to be",
+    "pos": "v.",
+    "ipa": "/ɛtʁ/",
+    "example_fr": "Je suis étudiant.",
+    "example_en": "I am a student.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0196",
+    "fr": "avoir",
+    "en": "to have",
+    "pos": "v.",
+    "ipa": "/a.vwaʁ/",
+    "example_fr": "J'ai vingt ans.",
+    "example_en": "I am twenty years old.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0197",
+    "fr": "aller",
+    "en": "to go",
+    "pos": "v.",
+    "ipa": "/a.le/",
+    "example_fr": "Je vais à l'école.",
+    "example_en": "I go to school.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0198",
+    "fr": "faire",
+    "en": "to do; to make",
+    "pos": "v.",
+    "ipa": "/fɛʁ/",
+    "example_fr": "Je fais du sport.",
+    "example_en": "I do sports.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0199",
+    "fr": "dire",
+    "en": "to say",
+    "pos": "v.",
+    "ipa": "/diʁ/",
+    "example_fr": "Que voulez-vous dire ?",
+    "example_en": "What do you mean?",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0200",
+    "fr": "voir",
+    "en": "to see",
+    "pos": "v.",
+    "ipa": "/vwaʁ/",
+    "example_fr": "Je vois la mer.",
+    "example_en": "I see the sea.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0201",
+    "fr": "savoir",
+    "en": "to know (fact)",
+    "pos": "v.",
+    "ipa": "/sa.vwaʁ/",
+    "example_fr": "Je sais nager.",
+    "example_en": "I know how to swim.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0202",
+    "fr": "pouvoir",
+    "en": "can; to be able",
+    "pos": "v.",
+    "ipa": "/pu.vwaʁ/",
+    "example_fr": "Je peux vous aider.",
+    "example_en": "I can help you.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0203",
+    "fr": "vouloir",
+    "en": "to want",
+    "pos": "v.",
+    "ipa": "/vu.lwaʁ/",
+    "example_fr": "Je veux un café.",
+    "example_en": "I want a coffee.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0204",
+    "fr": "venir",
+    "en": "to come",
+    "pos": "v.",
+    "ipa": "/və.niʁ/",
+    "example_fr": "Il vient demain.",
+    "example_en": "He comes tomorrow.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0205",
+    "fr": "prendre",
+    "en": "to take",
+    "pos": "v.",
+    "ipa": "/pʁɑ̃dʁ/",
+    "example_fr": "Je prends le bus.",
+    "example_en": "I take the bus.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0206",
+    "fr": "mettre",
+    "en": "to put",
+    "pos": "v.",
+    "ipa": "/mɛtʁ/",
+    "example_fr": "Mets ton manteau.",
+    "example_en": "Put on your coat.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0207",
+    "fr": "donner",
+    "en": "to give",
+    "pos": "v.",
+    "ipa": "/dɔ.ne/",
+    "example_fr": "Donne-moi le livre.",
+    "example_en": "Give me the book.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0208",
+    "fr": "parler",
+    "en": "to speak",
+    "pos": "v.",
+    "ipa": "/paʁ.le/",
+    "example_fr": "Je parle français.",
+    "example_en": "I speak French.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0209",
+    "fr": "aimer",
+    "en": "to love; to like",
+    "pos": "v.",
+    "ipa": "/ɛ.me/",
+    "example_fr": "J'aime la musique.",
+    "example_en": "I love music.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0210",
+    "fr": "manger",
+    "en": "to eat",
+    "pos": "v.",
+    "ipa": "/mɑ̃.ʒe/",
+    "example_fr": "On mange à midi.",
+    "example_en": "We eat at noon.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0211",
+    "fr": "boire",
+    "en": "to drink",
+    "pos": "v.",
+    "ipa": "/bwaʁ/",
+    "example_fr": "Je bois de l'eau.",
+    "example_en": "I drink water.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0212",
+    "fr": "dormir",
+    "en": "to sleep",
+    "pos": "v.",
+    "ipa": "/dɔʁ.miʁ/",
+    "example_fr": "Je dors bien.",
+    "example_en": "I sleep well.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0213",
+    "fr": "lire",
+    "en": "to read",
+    "pos": "v.",
+    "ipa": "/liʁ/",
+    "example_fr": "J'aime lire.",
+    "example_en": "I like to read.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0214",
+    "fr": "écrire",
+    "en": "to write",
+    "pos": "v.",
+    "ipa": "/e.kʁiʁ/",
+    "example_fr": "J'écris une lettre.",
+    "example_en": "I write a letter.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0215",
+    "fr": "travailler",
+    "en": "to work",
+    "pos": "v.",
+    "ipa": "/tʁa.va.je/",
+    "example_fr": "Je travaille ici.",
+    "example_en": "I work here.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0216",
+    "fr": "étudier",
+    "en": "to study",
+    "pos": "v.",
+    "ipa": "/e.ty.dje/",
+    "example_fr": "J'étudie le français.",
+    "example_en": "I study French.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0217",
+    "fr": "acheter",
+    "en": "to buy",
+    "pos": "v.",
+    "ipa": "/aʃ.te/",
+    "example_fr": "J'achète du pain.",
+    "example_en": "I buy bread.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0218",
+    "fr": "vendre",
+    "en": "to sell",
+    "pos": "v.",
+    "ipa": "/vɑ̃dʁ/",
+    "example_fr": "Il vend des fruits.",
+    "example_en": "He sells fruits.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0219",
+    "fr": "chercher",
+    "en": "to look for",
+    "pos": "v.",
+    "ipa": "/ʃɛʁ.ʃe/",
+    "example_fr": "Je cherche mes clés.",
+    "example_en": "I'm looking for my keys.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0220",
+    "fr": "trouver",
+    "en": "to find",
+    "pos": "v.",
+    "ipa": "/tʁu.ve/",
+    "example_fr": "J'ai trouvé !",
+    "example_en": "I found it!",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0221",
+    "fr": "penser",
+    "en": "to think",
+    "pos": "v.",
+    "ipa": "/pɑ̃.se/",
+    "example_fr": "Je pense à toi.",
+    "example_en": "I think of you.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0222",
+    "fr": "croire",
+    "en": "to believe",
+    "pos": "v.",
+    "ipa": "/kʁwaʁ/",
+    "example_fr": "Je te crois.",
+    "example_en": "I believe you.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0223",
+    "fr": "comprendre",
+    "en": "to understand",
+    "pos": "v.",
+    "ipa": "/kɔ̃.pʁɑ̃dʁ/",
+    "example_fr": "Je comprends bien.",
+    "example_en": "I understand well.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0224",
+    "fr": "apprendre",
+    "en": "to learn",
+    "pos": "v.",
+    "ipa": "/a.pʁɑ̃dʁ/",
+    "example_fr": "J'apprends le français.",
+    "example_en": "I'm learning French.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0225",
+    "fr": "connaître",
+    "en": "to know (person)",
+    "pos": "v.",
+    "ipa": "/kɔ.nɛtʁ/",
+    "example_fr": "Je connais Paris.",
+    "example_en": "I know Paris.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0226",
+    "fr": "attendre",
+    "en": "to wait",
+    "pos": "v.",
+    "ipa": "/a.tɑ̃dʁ/",
+    "example_fr": "J'attends le bus.",
+    "example_en": "I'm waiting for the bus.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0227",
+    "fr": "répondre",
+    "en": "to answer",
+    "pos": "v.",
+    "ipa": "/ʁe.pɔ̃dʁ/",
+    "example_fr": "Répondez, s'il vous plaît.",
+    "example_en": "Please answer.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0228",
+    "fr": "demander",
+    "en": "to ask",
+    "pos": "v.",
+    "ipa": "/də.mɑ̃.de/",
+    "example_fr": "Je demande l'addition.",
+    "example_en": "I ask for the bill.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0229",
+    "fr": "ouvrir",
+    "en": "to open",
+    "pos": "v.",
+    "ipa": "/u.vʁiʁ/",
+    "example_fr": "Ouvrez la porte.",
+    "example_en": "Open the door.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0230",
+    "fr": "fermer",
+    "en": "to close",
+    "pos": "v.",
+    "ipa": "/fɛʁ.me/",
+    "example_fr": "Fermez la fenêtre.",
+    "example_en": "Close the window.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0231",
+    "fr": "commencer",
+    "en": "to begin",
+    "pos": "v.",
+    "ipa": "/kɔ.mɑ̃.se/",
+    "example_fr": "Le film commence.",
+    "example_en": "The film begins.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0232",
+    "fr": "finir",
+    "en": "to finish",
+    "pos": "v.",
+    "ipa": "/fi.niʁ/",
+    "example_fr": "J'ai fini.",
+    "example_en": "I'm done.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0233",
+    "fr": "arriver",
+    "en": "to arrive",
+    "pos": "v.",
+    "ipa": "/a.ʁi.ve/",
+    "example_fr": "Le train arrive.",
+    "example_en": "The train arrives.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0234",
+    "fr": "partir",
+    "en": "to leave",
+    "pos": "v.",
+    "ipa": "/paʁ.tiʁ/",
+    "example_fr": "Je pars demain.",
+    "example_en": "I leave tomorrow.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0235",
+    "fr": "entrer",
+    "en": "to enter",
+    "pos": "v.",
+    "ipa": "/ɑ̃.tʁe/",
+    "example_fr": "Entrez, s'il vous plaît.",
+    "example_en": "Come in, please.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0236",
+    "fr": "sortir",
+    "en": "to go out",
+    "pos": "v.",
+    "ipa": "/sɔʁ.tiʁ/",
+    "example_fr": "Je sors ce soir.",
+    "example_en": "I'm going out tonight.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0237",
+    "fr": "rester",
+    "en": "to stay",
+    "pos": "v.",
+    "ipa": "/ʁɛs.te/",
+    "example_fr": "Je reste à la maison.",
+    "example_en": "I stay at home.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0238",
+    "fr": "tomber",
+    "en": "to fall",
+    "pos": "v.",
+    "ipa": "/tɔ̃.be/",
+    "example_fr": "Ne tombe pas !",
+    "example_en": "Don't fall!",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0239",
+    "fr": "marcher",
+    "en": "to walk",
+    "pos": "v.",
+    "ipa": "/maʁ.ʃe/",
+    "example_fr": "Je marche vite.",
+    "example_en": "I walk fast.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0240",
+    "fr": "courir",
+    "en": "to run",
+    "pos": "v.",
+    "ipa": "/ku.ʁiʁ/",
+    "example_fr": "Il court très vite.",
+    "example_en": "He runs very fast.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0241",
+    "fr": "jouer",
+    "en": "to play",
+    "pos": "v.",
+    "ipa": "/ʒu.e/",
+    "example_fr": "Les enfants jouent.",
+    "example_en": "The children play.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0242",
+    "fr": "chanter",
+    "en": "to sing",
+    "pos": "v.",
+    "ipa": "/ʃɑ̃.te/",
+    "example_fr": "Elle chante bien.",
+    "example_en": "She sings well.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0243",
+    "fr": "danser",
+    "en": "to dance",
+    "pos": "v.",
+    "ipa": "/dɑ̃.se/",
+    "example_fr": "J'aime danser.",
+    "example_en": "I like to dance.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0244",
+    "fr": "nager",
+    "en": "to swim",
+    "pos": "v.",
+    "ipa": "/na.ʒe/",
+    "example_fr": "Je nage le matin.",
+    "example_en": "I swim in the morning.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0245",
+    "fr": "conduire",
+    "en": "to drive",
+    "pos": "v.",
+    "ipa": "/kɔ̃.dɥiʁ/",
+    "example_fr": "Je conduis prudemment.",
+    "example_en": "I drive carefully.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0246",
+    "fr": "voyager",
+    "en": "to travel",
+    "pos": "v.",
+    "ipa": "/vwa.ja.ʒe/",
+    "example_fr": "J'aime voyager.",
+    "example_en": "I love to travel.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0247",
+    "fr": "visiter",
+    "en": "to visit",
+    "pos": "v.",
+    "ipa": "/vi.zi.te/",
+    "example_fr": "Je visite le musée.",
+    "example_en": "I visit the museum.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0248",
+    "fr": "habiter",
+    "en": "to live (reside)",
+    "pos": "v.",
+    "ipa": "/a.bi.te/",
+    "example_fr": "J'habite à Lyon.",
+    "example_en": "I live in Lyon.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0249",
+    "fr": "vivre",
+    "en": "to live",
+    "pos": "v.",
+    "ipa": "/vivʁ/",
+    "example_fr": "Vivre en France.",
+    "example_en": "To live in France.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0250",
+    "fr": "porter",
+    "en": "to carry; to wear",
+    "pos": "v.",
+    "ipa": "/pɔʁ.te/",
+    "example_fr": "Elle porte une robe.",
+    "example_en": "She wears a dress.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0251",
+    "fr": "essayer",
+    "en": "to try",
+    "pos": "v.",
+    "ipa": "/e.se.je/",
+    "example_fr": "J'essaie encore.",
+    "example_en": "I try again.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0252",
+    "fr": "payer",
+    "en": "to pay",
+    "pos": "v.",
+    "ipa": "/pe.je/",
+    "example_fr": "Je paie par carte.",
+    "example_en": "I pay by card.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0253",
+    "fr": "envoyer",
+    "en": "to send",
+    "pos": "v.",
+    "ipa": "/ɑ̃.vwa.je/",
+    "example_fr": "J'envoie un message.",
+    "example_en": "I send a message.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0254",
+    "fr": "recevoir",
+    "en": "to receive",
+    "pos": "v.",
+    "ipa": "/ʁə.sə.vwaʁ/",
+    "example_fr": "J'ai reçu ta lettre.",
+    "example_en": "I received your letter.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0255",
+    "fr": "appeler",
+    "en": "to call",
+    "pos": "v.",
+    "ipa": "/a.ple/",
+    "example_fr": "Appelez-moi demain.",
+    "example_en": "Call me tomorrow.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0256",
+    "fr": "aider",
+    "en": "to help",
+    "pos": "v.",
+    "ipa": "/ɛ.de/",
+    "example_fr": "Pouvez-vous m'aider ?",
+    "example_en": "Can you help me?",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0257",
+    "fr": "choisir",
+    "en": "to choose",
+    "pos": "v.",
+    "ipa": "/ʃwa.ziʁ/",
+    "example_fr": "Choisis un livre.",
+    "example_en": "Choose a book.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0258",
+    "fr": "perdre",
+    "en": "to lose",
+    "pos": "v.",
+    "ipa": "/pɛʁdʁ/",
+    "example_fr": "J'ai perdu mes clés.",
+    "example_en": "I lost my keys.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0259",
+    "fr": "gagner",
+    "en": "to win; to earn",
+    "pos": "v.",
+    "ipa": "/ɡa.ɲe/",
+    "example_fr": "Il a gagné le match.",
+    "example_en": "He won the match.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0260",
+    "fr": "oublier",
+    "en": "to forget",
+    "pos": "v.",
+    "ipa": "/u.bli.je/",
+    "example_fr": "N'oublie pas !",
+    "example_en": "Don't forget!",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0261",
+    "fr": "montrer",
+    "en": "to show",
+    "pos": "v.",
+    "ipa": "/mɔ̃.tʁe/",
+    "example_fr": "Montrez-moi le chemin.",
+    "example_en": "Show me the way.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0262",
+    "fr": "tenir",
+    "en": "to hold",
+    "pos": "v.",
+    "ipa": "/tə.niʁ/",
+    "example_fr": "Tiens ma main.",
+    "example_en": "Hold my hand.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0263",
+    "fr": "devoir",
+    "en": "must; to owe",
+    "pos": "v.",
+    "ipa": "/də.vwaʁ/",
+    "example_fr": "Je dois partir.",
+    "example_en": "I have to leave.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0264",
+    "fr": "rentrer",
+    "en": "to return home",
+    "pos": "v.",
+    "ipa": "/ʁɑ̃.tʁe/",
+    "example_fr": "Je rentre chez moi.",
+    "example_en": "I'm going home.",
+    "theme": "Common Verbs"
+  },
+  {
+    "id": "fr_0265",
+    "fr": "grand",
+    "en": "big; tall",
+    "pos": "adj.",
+    "ipa": "/ɡʁɑ̃/",
+    "example_fr": "Une grande maison.",
+    "example_en": "A big house.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0266",
+    "fr": "petit",
+    "en": "small; short",
+    "pos": "adj.",
+    "ipa": "/pə.ti/",
+    "example_fr": "Un petit chat.",
+    "example_en": "A small cat.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0267",
+    "fr": "bon",
+    "en": "good",
+    "pos": "adj.",
+    "ipa": "/bɔ̃/",
+    "example_fr": "Un bon repas.",
+    "example_en": "A good meal.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0268",
+    "fr": "mauvais",
+    "en": "bad",
+    "pos": "adj.",
+    "ipa": "/mo.vɛ/",
+    "example_fr": "Un mauvais jour.",
+    "example_en": "A bad day.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0269",
+    "fr": "beau",
+    "en": "beautiful",
+    "pos": "adj.",
+    "ipa": "/bo/",
+    "example_fr": "Un beau paysage.",
+    "example_en": "A beautiful landscape.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0270",
+    "fr": "nouveau",
+    "en": "new",
+    "pos": "adj.",
+    "ipa": "/nu.vo/",
+    "example_fr": "Un nouveau travail.",
+    "example_en": "A new job.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0271",
+    "fr": "vieux",
+    "en": "old",
+    "pos": "adj.",
+    "ipa": "/vjø/",
+    "example_fr": "Un vieux livre.",
+    "example_en": "An old book.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0272",
+    "fr": "jeune",
+    "en": "young",
+    "pos": "adj.",
+    "ipa": "/ʒœn/",
+    "example_fr": "Un jeune homme.",
+    "example_en": "A young man.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0273",
+    "fr": "long",
+    "en": "long",
+    "pos": "adj.",
+    "ipa": "/lɔ̃/",
+    "example_fr": "Une longue route.",
+    "example_en": "A long road.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0274",
+    "fr": "court",
+    "en": "short",
+    "pos": "adj.",
+    "ipa": "/kuʁ/",
+    "example_fr": "Un texte court.",
+    "example_en": "A short text.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0275",
+    "fr": "chaud",
+    "en": "hot; warm",
+    "pos": "adj.",
+    "ipa": "/ʃo/",
+    "example_fr": "Il fait chaud.",
+    "example_en": "It's hot.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0276",
+    "fr": "froid",
+    "en": "cold",
+    "pos": "adj.",
+    "ipa": "/fʁwa/",
+    "example_fr": "Il fait froid.",
+    "example_en": "It's cold.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0277",
+    "fr": "facile",
+    "en": "easy",
+    "pos": "adj.",
+    "ipa": "/fa.sil/",
+    "example_fr": "C'est facile.",
+    "example_en": "It's easy.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0278",
+    "fr": "difficile",
+    "en": "difficult",
+    "pos": "adj.",
+    "ipa": "/di.fi.sil/",
+    "example_fr": "C'est difficile.",
+    "example_en": "It's difficult.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0279",
+    "fr": "heureux",
+    "en": "happy",
+    "pos": "adj.",
+    "ipa": "/œ.ʁø/",
+    "example_fr": "Je suis heureux.",
+    "example_en": "I am happy.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0280",
+    "fr": "triste",
+    "en": "sad",
+    "pos": "adj.",
+    "ipa": "/tʁist/",
+    "example_fr": "Il est triste.",
+    "example_en": "He is sad.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0281",
+    "fr": "content",
+    "en": "glad; pleased",
+    "pos": "adj.",
+    "ipa": "/kɔ̃.tɑ̃/",
+    "example_fr": "Je suis content.",
+    "example_en": "I am pleased.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0282",
+    "fr": "fatigué",
+    "en": "tired",
+    "pos": "adj.",
+    "ipa": "/fa.ti.ɡe/",
+    "example_fr": "Je suis fatigué.",
+    "example_en": "I am tired.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0283",
+    "fr": "malade",
+    "en": "sick",
+    "pos": "adj.",
+    "ipa": "/ma.lad/",
+    "example_fr": "Il est malade.",
+    "example_en": "He is sick.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0284",
+    "fr": "fort",
+    "en": "strong",
+    "pos": "adj.",
+    "ipa": "/fɔʁ/",
+    "example_fr": "Il est très fort.",
+    "example_en": "He is very strong.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0285",
+    "fr": "rapide",
+    "en": "fast",
+    "pos": "adj.",
+    "ipa": "/ʁa.pid/",
+    "example_fr": "Un train rapide.",
+    "example_en": "A fast train.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0286",
+    "fr": "lent",
+    "en": "slow",
+    "pos": "adj.",
+    "ipa": "/lɑ̃/",
+    "example_fr": "Un rythme lent.",
+    "example_en": "A slow rhythm.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0287",
+    "fr": "cher",
+    "en": "expensive; dear",
+    "pos": "adj.",
+    "ipa": "/ʃɛʁ/",
+    "example_fr": "C'est trop cher.",
+    "example_en": "It's too expensive.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0288",
+    "fr": "gratuit",
+    "en": "free (no cost)",
+    "pos": "adj.",
+    "ipa": "/ɡʁa.tɥi/",
+    "example_fr": "L'entrée est gratuite.",
+    "example_en": "Entry is free.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0289",
+    "fr": "plein",
+    "en": "full",
+    "pos": "adj.",
+    "ipa": "/plɛ̃/",
+    "example_fr": "Le verre est plein.",
+    "example_en": "The glass is full.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0290",
+    "fr": "vide",
+    "en": "empty",
+    "pos": "adj.",
+    "ipa": "/vid/",
+    "example_fr": "La salle est vide.",
+    "example_en": "The room is empty.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0291",
+    "fr": "propre",
+    "en": "clean; own",
+    "pos": "adj.",
+    "ipa": "/pʁɔpʁ/",
+    "example_fr": "Une chambre propre.",
+    "example_en": "A clean room.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0292",
+    "fr": "sale",
+    "en": "dirty",
+    "pos": "adj.",
+    "ipa": "/sal/",
+    "example_fr": "Des mains sales.",
+    "example_en": "Dirty hands.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0293",
+    "fr": "important",
+    "en": "important",
+    "pos": "adj.",
+    "ipa": "/ɛ̃.pɔʁ.tɑ̃/",
+    "example_fr": "C'est très important.",
+    "example_en": "It's very important.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0294",
+    "fr": "possible",
+    "en": "possible",
+    "pos": "adj.",
+    "ipa": "/pɔ.sibl/",
+    "example_fr": "C'est possible.",
+    "example_en": "It's possible.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0295",
+    "fr": "impossible",
+    "en": "impossible",
+    "pos": "adj.",
+    "ipa": "/ɛ̃.pɔ.sibl/",
+    "example_fr": "C'est impossible.",
+    "example_en": "It's impossible.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0296",
+    "fr": "nécessaire",
+    "en": "necessary",
+    "pos": "adj.",
+    "ipa": "/ne.se.sɛʁ/",
+    "example_fr": "C'est nécessaire.",
+    "example_en": "It's necessary.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0297",
+    "fr": "différent",
+    "en": "different",
+    "pos": "adj.",
+    "ipa": "/di.fe.ʁɑ̃/",
+    "example_fr": "C'est différent.",
+    "example_en": "It's different.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0298",
+    "fr": "même",
+    "en": "same; even",
+    "pos": "adj.",
+    "ipa": "/mɛm/",
+    "example_fr": "Le même jour.",
+    "example_en": "The same day.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0299",
+    "fr": "seul",
+    "en": "alone; only",
+    "pos": "adj.",
+    "ipa": "/sœl/",
+    "example_fr": "Je suis seul.",
+    "example_en": "I am alone.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0300",
+    "fr": "autre",
+    "en": "other",
+    "pos": "adj.",
+    "ipa": "/otʁ/",
+    "example_fr": "Un autre jour.",
+    "example_en": "Another day.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0301",
+    "fr": "prochain",
+    "en": "next",
+    "pos": "adj.",
+    "ipa": "/pʁɔ.ʃɛ̃/",
+    "example_fr": "La semaine prochaine.",
+    "example_en": "Next week.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0302",
+    "fr": "certain",
+    "en": "certain; sure",
+    "pos": "adj.",
+    "ipa": "/sɛʁ.tɛ̃/",
+    "example_fr": "J'en suis certain.",
+    "example_en": "I'm sure of it.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0303",
+    "fr": "gentil",
+    "en": "kind; nice",
+    "pos": "adj.",
+    "ipa": "/ʒɑ̃.ti/",
+    "example_fr": "Il est très gentil.",
+    "example_en": "He is very kind.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0304",
+    "fr": "joli",
+    "en": "pretty",
+    "pos": "adj.",
+    "ipa": "/ʒɔ.li/",
+    "example_fr": "Une jolie fleur.",
+    "example_en": "A pretty flower.",
+    "theme": "Adjectives"
+  },
+  {
+    "id": "fr_0305",
+    "fr": "le",
+    "en": "the (m.sg.)",
+    "pos": "art.",
+    "ipa": "/lə/",
+    "example_fr": "Le chat dort.",
+    "example_en": "The cat sleeps.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0306",
+    "fr": "la",
+    "en": "the (f.sg.)",
+    "pos": "art.",
+    "ipa": "/la/",
+    "example_fr": "La maison est grande.",
+    "example_en": "The house is big.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0307",
+    "fr": "les",
+    "en": "the (pl.)",
+    "pos": "art.",
+    "ipa": "/le/",
+    "example_fr": "Les enfants jouent.",
+    "example_en": "The children play.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0308",
+    "fr": "un",
+    "en": "a; an (m.)",
+    "pos": "art.",
+    "ipa": "/œ̃/",
+    "example_fr": "Un homme grand.",
+    "example_en": "A tall man.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0309",
+    "fr": "une",
+    "en": "a; an (f.)",
+    "pos": "art.",
+    "ipa": "/yn/",
+    "example_fr": "Une belle journée.",
+    "example_en": "A beautiful day.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0310",
+    "fr": "de",
+    "en": "of; from",
+    "pos": "prep.",
+    "ipa": "/də/",
+    "example_fr": "Un verre de vin.",
+    "example_en": "A glass of wine.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0311",
+    "fr": "à",
+    "en": "to; at",
+    "pos": "prep.",
+    "ipa": "/a/",
+    "example_fr": "Je vais à Paris.",
+    "example_en": "I go to Paris.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0312",
+    "fr": "et",
+    "en": "and",
+    "pos": "conj.",
+    "ipa": "/e/",
+    "example_fr": "Toi et moi.",
+    "example_en": "You and me.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0313",
+    "fr": "ou",
+    "en": "or",
+    "pos": "conj.",
+    "ipa": "/u/",
+    "example_fr": "Oui ou non ?",
+    "example_en": "Yes or no?",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0314",
+    "fr": "mais",
+    "en": "but",
+    "pos": "conj.",
+    "ipa": "/mɛ/",
+    "example_fr": "Petit mais fort.",
+    "example_en": "Small but strong.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0315",
+    "fr": "avec",
+    "en": "with",
+    "pos": "prep.",
+    "ipa": "/a.vɛk/",
+    "example_fr": "Avec plaisir.",
+    "example_en": "With pleasure.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0316",
+    "fr": "sans",
+    "en": "without",
+    "pos": "prep.",
+    "ipa": "/sɑ̃/",
+    "example_fr": "Sans sucre.",
+    "example_en": "Without sugar.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0317",
+    "fr": "pour",
+    "en": "for",
+    "pos": "prep.",
+    "ipa": "/puʁ/",
+    "example_fr": "Pour toi.",
+    "example_en": "For you.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0318",
+    "fr": "dans",
+    "en": "in; inside",
+    "pos": "prep.",
+    "ipa": "/dɑ̃/",
+    "example_fr": "Dans la maison.",
+    "example_en": "In the house.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0319",
+    "fr": "sur",
+    "en": "on",
+    "pos": "prep.",
+    "ipa": "/syʁ/",
+    "example_fr": "Sur la table.",
+    "example_en": "On the table.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0320",
+    "fr": "sous",
+    "en": "under",
+    "pos": "prep.",
+    "ipa": "/su/",
+    "example_fr": "Sous le lit.",
+    "example_en": "Under the bed.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0321",
+    "fr": "entre",
+    "en": "between",
+    "pos": "prep.",
+    "ipa": "/ɑ̃tʁ/",
+    "example_fr": "Entre toi et moi.",
+    "example_en": "Between you and me.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0322",
+    "fr": "avant",
+    "en": "before",
+    "pos": "prep.",
+    "ipa": "/a.vɑ̃/",
+    "example_fr": "Avant midi.",
+    "example_en": "Before noon.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0323",
+    "fr": "après",
+    "en": "after",
+    "pos": "prep.",
+    "ipa": "/a.pʁɛ/",
+    "example_fr": "Après le dîner.",
+    "example_en": "After dinner.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0324",
+    "fr": "pendant",
+    "en": "during",
+    "pos": "prep.",
+    "ipa": "/pɑ̃.dɑ̃/",
+    "example_fr": "Pendant la nuit.",
+    "example_en": "During the night.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0325",
+    "fr": "depuis",
+    "en": "since; for",
+    "pos": "prep.",
+    "ipa": "/də.pɥi/",
+    "example_fr": "Depuis lundi.",
+    "example_en": "Since Monday.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0326",
+    "fr": "comme",
+    "en": "like; as",
+    "pos": "conj.",
+    "ipa": "/kɔm/",
+    "example_fr": "Comme d'habitude.",
+    "example_en": "As usual.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0327",
+    "fr": "que",
+    "en": "that; which",
+    "pos": "conj.",
+    "ipa": "/kə/",
+    "example_fr": "Je pense que oui.",
+    "example_en": "I think so.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0328",
+    "fr": "qui",
+    "en": "who; which",
+    "pos": "pron.",
+    "ipa": "/ki/",
+    "example_fr": "Qui est-ce ?",
+    "example_en": "Who is it?",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0329",
+    "fr": "où",
+    "en": "where",
+    "pos": "adv.",
+    "ipa": "/u/",
+    "example_fr": "Où est la gare ?",
+    "example_en": "Where is the station?",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0330",
+    "fr": "quand",
+    "en": "when",
+    "pos": "adv.",
+    "ipa": "/kɑ̃/",
+    "example_fr": "Quand partons-nous ?",
+    "example_en": "When do we leave?",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0331",
+    "fr": "pourquoi",
+    "en": "why",
+    "pos": "adv.",
+    "ipa": "/puʁ.kwa/",
+    "example_fr": "Pourquoi pas ?",
+    "example_en": "Why not?",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0332",
+    "fr": "combien",
+    "en": "how much/many",
+    "pos": "adv.",
+    "ipa": "/kɔ̃.bjɛ̃/",
+    "example_fr": "Combien ça coûte ?",
+    "example_en": "How much does it cost?",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0333",
+    "fr": "très",
+    "en": "very",
+    "pos": "adv.",
+    "ipa": "/tʁɛ/",
+    "example_fr": "Très bien.",
+    "example_en": "Very good.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0334",
+    "fr": "aussi",
+    "en": "also; too",
+    "pos": "adv.",
+    "ipa": "/o.si/",
+    "example_fr": "Moi aussi.",
+    "example_en": "Me too.",
+    "theme": "Function Words"
+  },
+  {
+    "id": "fr_0335",
+    "fr": "tête",
+    "en": "head",
+    "pos": "n.f.",
+    "ipa": "/tɛt/",
+    "example_fr": "J'ai mal à la tête.",
+    "example_en": "I have a headache.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0336",
+    "fr": "corps",
+    "en": "body",
+    "pos": "n.m.",
+    "ipa": "/kɔʁ/",
+    "example_fr": "Le corps humain.",
+    "example_en": "The human body.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0337",
+    "fr": "main",
+    "en": "hand",
+    "pos": "n.f.",
+    "ipa": "/mɛ̃/",
+    "example_fr": "Donne-moi la main.",
+    "example_en": "Give me your hand.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0338",
+    "fr": "bras",
+    "en": "arm",
+    "pos": "n.m.",
+    "ipa": "/bʁɑ/",
+    "example_fr": "Il a levé le bras.",
+    "example_en": "He raised his arm.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0339",
+    "fr": "jambe",
+    "en": "leg",
+    "pos": "n.f.",
+    "ipa": "/ʒɑ̃b/",
+    "example_fr": "J'ai mal à la jambe.",
+    "example_en": "My leg hurts.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0340",
+    "fr": "pied",
+    "en": "foot",
+    "pos": "n.m.",
+    "ipa": "/pje/",
+    "example_fr": "À pied.",
+    "example_en": "On foot.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0341",
+    "fr": "œil",
+    "en": "eye",
+    "pos": "n.m.",
+    "ipa": "/œj/",
+    "example_fr": "Il a l'œil vif.",
+    "example_en": "He has a sharp eye.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0342",
+    "fr": "yeux",
+    "en": "eyes",
+    "pos": "n.m.pl.",
+    "ipa": "/jø/",
+    "example_fr": "De beaux yeux bleus.",
+    "example_en": "Beautiful blue eyes.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0343",
+    "fr": "oreille",
+    "en": "ear",
+    "pos": "n.f.",
+    "ipa": "/ɔ.ʁɛj/",
+    "example_fr": "J'ai mal à l'oreille.",
+    "example_en": "My ear hurts.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0344",
+    "fr": "bouche",
+    "en": "mouth",
+    "pos": "n.f.",
+    "ipa": "/buʃ/",
+    "example_fr": "Ouvre la bouche.",
+    "example_en": "Open your mouth.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0345",
+    "fr": "nez",
+    "en": "nose",
+    "pos": "n.m.",
+    "ipa": "/ne/",
+    "example_fr": "Un grand nez.",
+    "example_en": "A big nose.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0346",
+    "fr": "dos",
+    "en": "back",
+    "pos": "n.m.",
+    "ipa": "/do/",
+    "example_fr": "J'ai mal au dos.",
+    "example_en": "My back hurts.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0347",
+    "fr": "cœur",
+    "en": "heart",
+    "pos": "n.m.",
+    "ipa": "/kœʁ/",
+    "example_fr": "Mon cœur bat vite.",
+    "example_en": "My heart beats fast.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0348",
+    "fr": "dent",
+    "en": "tooth",
+    "pos": "n.f.",
+    "ipa": "/dɑ̃/",
+    "example_fr": "J'ai mal aux dents.",
+    "example_en": "I have a toothache.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0349",
+    "fr": "cheveux",
+    "en": "hair",
+    "pos": "n.m.pl.",
+    "ipa": "/ʃə.vø/",
+    "example_fr": "Des cheveux longs.",
+    "example_en": "Long hair.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0350",
+    "fr": "doigt",
+    "en": "finger",
+    "pos": "n.m.",
+    "ipa": "/dwa/",
+    "example_fr": "Dix doigts.",
+    "example_en": "Ten fingers.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0351",
+    "fr": "genou",
+    "en": "knee",
+    "pos": "n.m.",
+    "ipa": "/ʒə.nu/",
+    "example_fr": "Mon genou gauche.",
+    "example_en": "My left knee.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0352",
+    "fr": "santé",
+    "en": "health",
+    "pos": "n.f.",
+    "ipa": "/sɑ̃.te/",
+    "example_fr": "Bonne santé !",
+    "example_en": "Good health!",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0353",
+    "fr": "médecin",
+    "en": "doctor",
+    "pos": "n.m.",
+    "ipa": "/med.sɛ̃/",
+    "example_fr": "Voir le médecin.",
+    "example_en": "See the doctor.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0354",
+    "fr": "douleur",
+    "en": "pain",
+    "pos": "n.f.",
+    "ipa": "/du.lœʁ/",
+    "example_fr": "Une forte douleur.",
+    "example_en": "A strong pain.",
+    "theme": "Body & Health"
+  },
+  {
+    "id": "fr_0355",
+    "fr": "maison",
+    "en": "house",
+    "pos": "n.f.",
+    "ipa": "/mɛ.zɔ̃/",
+    "example_fr": "Une belle maison.",
+    "example_en": "A beautiful house.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0356",
+    "fr": "appartement",
+    "en": "apartment",
+    "pos": "n.m.",
+    "ipa": "/a.paʁ.tə.mɑ̃/",
+    "example_fr": "Un petit appartement.",
+    "example_en": "A small apartment.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0357",
+    "fr": "chambre",
+    "en": "bedroom; room",
+    "pos": "n.f.",
+    "ipa": "/ʃɑ̃bʁ/",
+    "example_fr": "Ma chambre est grande.",
+    "example_en": "My room is big.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0358",
+    "fr": "salle de bain",
+    "en": "bathroom",
+    "pos": "n.f.",
+    "ipa": "/sal də bɛ̃/",
+    "example_fr": "La salle de bain.",
+    "example_en": "The bathroom.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0359",
+    "fr": "salon",
+    "en": "living room",
+    "pos": "n.m.",
+    "ipa": "/sa.lɔ̃/",
+    "example_fr": "Le salon est grand.",
+    "example_en": "The living room is big.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0360",
+    "fr": "porte",
+    "en": "door",
+    "pos": "n.f.",
+    "ipa": "/pɔʁt/",
+    "example_fr": "Fermez la porte.",
+    "example_en": "Close the door.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0361",
+    "fr": "fenêtre",
+    "en": "window",
+    "pos": "n.f.",
+    "ipa": "/fə.nɛtʁ/",
+    "example_fr": "Ouvrez la fenêtre.",
+    "example_en": "Open the window.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0362",
+    "fr": "escalier",
+    "en": "stairs",
+    "pos": "n.m.",
+    "ipa": "/ɛs.ka.lje/",
+    "example_fr": "Montez l'escalier.",
+    "example_en": "Go up the stairs.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0363",
+    "fr": "mur",
+    "en": "wall",
+    "pos": "n.m.",
+    "ipa": "/myʁ/",
+    "example_fr": "Un mur blanc.",
+    "example_en": "A white wall.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0364",
+    "fr": "sol",
+    "en": "floor; ground",
+    "pos": "n.m.",
+    "ipa": "/sɔl/",
+    "example_fr": "Le sol est mouillé.",
+    "example_en": "The floor is wet.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0365",
+    "fr": "toit",
+    "en": "roof",
+    "pos": "n.m.",
+    "ipa": "/twa/",
+    "example_fr": "Le toit rouge.",
+    "example_en": "The red roof.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0366",
+    "fr": "lit",
+    "en": "bed",
+    "pos": "n.m.",
+    "ipa": "/li/",
+    "example_fr": "Je suis au lit.",
+    "example_en": "I'm in bed.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0367",
+    "fr": "table",
+    "en": "table",
+    "pos": "n.f.",
+    "ipa": "/tabl/",
+    "example_fr": "Sur la table.",
+    "example_en": "On the table.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0368",
+    "fr": "chaise",
+    "en": "chair",
+    "pos": "n.f.",
+    "ipa": "/ʃɛz/",
+    "example_fr": "Asseyez-vous.",
+    "example_en": "Sit down.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0369",
+    "fr": "canapé",
+    "en": "sofa",
+    "pos": "n.m.",
+    "ipa": "/ka.na.pe/",
+    "example_fr": "Un canapé confortable.",
+    "example_en": "A comfortable sofa.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0370",
+    "fr": "armoire",
+    "en": "wardrobe",
+    "pos": "n.f.",
+    "ipa": "/aʁ.mwaʁ/",
+    "example_fr": "L'armoire est pleine.",
+    "example_en": "The wardrobe is full.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0371",
+    "fr": "lampe",
+    "en": "lamp",
+    "pos": "n.f.",
+    "ipa": "/lɑ̃p/",
+    "example_fr": "Allume la lampe.",
+    "example_en": "Turn on the lamp.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0372",
+    "fr": "miroir",
+    "en": "mirror",
+    "pos": "n.m.",
+    "ipa": "/mi.ʁwaʁ/",
+    "example_fr": "Un grand miroir.",
+    "example_en": "A big mirror.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0373",
+    "fr": "clé",
+    "en": "key",
+    "pos": "n.f.",
+    "ipa": "/kle/",
+    "example_fr": "Où est ma clé ?",
+    "example_en": "Where is my key?",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0374",
+    "fr": "téléphone",
+    "en": "phone",
+    "pos": "n.m.",
+    "ipa": "/te.le.fɔn/",
+    "example_fr": "Mon téléphone sonne.",
+    "example_en": "My phone is ringing.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0375",
+    "fr": "ordinateur",
+    "en": "computer",
+    "pos": "n.m.",
+    "ipa": "/ɔʁ.di.na.tœʁ/",
+    "example_fr": "Mon ordinateur est vieux.",
+    "example_en": "My computer is old.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0376",
+    "fr": "livre",
+    "en": "book",
+    "pos": "n.m.",
+    "ipa": "/livʁ/",
+    "example_fr": "Un bon livre.",
+    "example_en": "A good book.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0377",
+    "fr": "sac",
+    "en": "bag",
+    "pos": "n.m.",
+    "ipa": "/sak/",
+    "example_fr": "Mon sac est lourd.",
+    "example_en": "My bag is heavy.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0378",
+    "fr": "parapluie",
+    "en": "umbrella",
+    "pos": "n.m.",
+    "ipa": "/pa.ʁa.plɥi/",
+    "example_fr": "Prends ton parapluie.",
+    "example_en": "Take your umbrella.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0379",
+    "fr": "montre",
+    "en": "watch",
+    "pos": "n.f.",
+    "ipa": "/mɔ̃tʁ/",
+    "example_fr": "Ma montre est cassée.",
+    "example_en": "My watch is broken.",
+    "theme": "House & Objects"
+  },
+  {
+    "id": "fr_0380",
+    "fr": "vêtement",
+    "en": "clothing",
+    "pos": "n.m.",
+    "ipa": "/vɛt.mɑ̃/",
+    "example_fr": "Des vêtements neufs.",
+    "example_en": "New clothes.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0381",
+    "fr": "chemise",
+    "en": "shirt",
+    "pos": "n.f.",
+    "ipa": "/ʃə.miz/",
+    "example_fr": "Une chemise blanche.",
+    "example_en": "A white shirt.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0382",
+    "fr": "pantalon",
+    "en": "trousers",
+    "pos": "n.m.",
+    "ipa": "/pɑ̃.ta.lɔ̃/",
+    "example_fr": "Un pantalon noir.",
+    "example_en": "Black trousers.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0383",
+    "fr": "robe",
+    "en": "dress",
+    "pos": "n.f.",
+    "ipa": "/ʁɔb/",
+    "example_fr": "Une robe rouge.",
+    "example_en": "A red dress.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0384",
+    "fr": "jupe",
+    "en": "skirt",
+    "pos": "n.f.",
+    "ipa": "/ʒyp/",
+    "example_fr": "Une jupe courte.",
+    "example_en": "A short skirt.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0385",
+    "fr": "chaussure",
+    "en": "shoe",
+    "pos": "n.f.",
+    "ipa": "/ʃo.syʁ/",
+    "example_fr": "De nouvelles chaussures.",
+    "example_en": "New shoes.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0386",
+    "fr": "manteau",
+    "en": "coat",
+    "pos": "n.m.",
+    "ipa": "/mɑ̃.to/",
+    "example_fr": "Un manteau chaud.",
+    "example_en": "A warm coat.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0387",
+    "fr": "chapeau",
+    "en": "hat",
+    "pos": "n.m.",
+    "ipa": "/ʃa.po/",
+    "example_fr": "Un joli chapeau.",
+    "example_en": "A nice hat.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0388",
+    "fr": "lunettes",
+    "en": "glasses",
+    "pos": "n.f.pl.",
+    "ipa": "/ly.nɛt/",
+    "example_fr": "Des lunettes de soleil.",
+    "example_en": "Sunglasses.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0389",
+    "fr": "ceinture",
+    "en": "belt",
+    "pos": "n.f.",
+    "ipa": "/sɛ̃.tyʁ/",
+    "example_fr": "Une ceinture en cuir.",
+    "example_en": "A leather belt.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0390",
+    "fr": "prix",
+    "en": "price",
+    "pos": "n.m.",
+    "ipa": "/pʁi/",
+    "example_fr": "Quel est le prix ?",
+    "example_en": "What is the price?",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0391",
+    "fr": "argent",
+    "en": "money; silver",
+    "pos": "n.m.",
+    "ipa": "/aʁ.ʒɑ̃/",
+    "example_fr": "J'ai besoin d'argent.",
+    "example_en": "I need money.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0392",
+    "fr": "monnaie",
+    "en": "change; currency",
+    "pos": "n.f.",
+    "ipa": "/mɔ.nɛ/",
+    "example_fr": "La monnaie, s'il vous plaît.",
+    "example_en": "Change, please.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0393",
+    "fr": "carte",
+    "en": "card; map",
+    "pos": "n.f.",
+    "ipa": "/kaʁt/",
+    "example_fr": "Une carte bancaire.",
+    "example_en": "A bank card.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0394",
+    "fr": "facture",
+    "en": "bill; invoice",
+    "pos": "n.f.",
+    "ipa": "/fak.tyʁ/",
+    "example_fr": "La facture, s'il vous plaît.",
+    "example_en": "The bill, please.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0395",
+    "fr": "taille",
+    "en": "size",
+    "pos": "n.f.",
+    "ipa": "/taj/",
+    "example_fr": "Quelle taille ?",
+    "example_en": "What size?",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0396",
+    "fr": "mode",
+    "en": "fashion",
+    "pos": "n.f.",
+    "ipa": "/mɔd/",
+    "example_fr": "La mode française.",
+    "example_en": "French fashion.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0397",
+    "fr": "boutique",
+    "en": "shop",
+    "pos": "n.f.",
+    "ipa": "/bu.tik/",
+    "example_fr": "Une petite boutique.",
+    "example_en": "A small shop.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0398",
+    "fr": "solde",
+    "en": "sale",
+    "pos": "n.m.",
+    "ipa": "/sɔld/",
+    "example_fr": "Les soldes d'été.",
+    "example_en": "The summer sales.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0399",
+    "fr": "cadeau",
+    "en": "gift",
+    "pos": "n.m.",
+    "ipa": "/ka.do/",
+    "example_fr": "Un cadeau pour toi.",
+    "example_en": "A gift for you.",
+    "theme": "Clothing & Shopping"
+  },
+  {
+    "id": "fr_0400",
+    "fr": "temps",
+    "en": "weather; time",
+    "pos": "n.m.",
+    "ipa": "/tɑ̃/",
+    "example_fr": "Quel temps fait-il ?",
+    "example_en": "What's the weather like?",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0401",
+    "fr": "soleil",
+    "en": "sun",
+    "pos": "n.m.",
+    "ipa": "/sɔ.lɛj/",
+    "example_fr": "Il y a du soleil.",
+    "example_en": "It's sunny.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0402",
+    "fr": "pluie",
+    "en": "rain",
+    "pos": "n.f.",
+    "ipa": "/plɥi/",
+    "example_fr": "Il pleut.",
+    "example_en": "It's raining.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0403",
+    "fr": "neige",
+    "en": "snow",
+    "pos": "n.f.",
+    "ipa": "/nɛʒ/",
+    "example_fr": "Il neige dehors.",
+    "example_en": "It's snowing outside.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0404",
+    "fr": "vent",
+    "en": "wind",
+    "pos": "n.m.",
+    "ipa": "/vɑ̃/",
+    "example_fr": "Il y a du vent.",
+    "example_en": "It's windy.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0405",
+    "fr": "nuage",
+    "en": "cloud",
+    "pos": "n.m.",
+    "ipa": "/ny.aʒ/",
+    "example_fr": "Des nuages gris.",
+    "example_en": "Grey clouds.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0406",
+    "fr": "ciel",
+    "en": "sky",
+    "pos": "n.m.",
+    "ipa": "/sjɛl/",
+    "example_fr": "Le ciel est bleu.",
+    "example_en": "The sky is blue.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0407",
+    "fr": "mer",
+    "en": "sea",
+    "pos": "n.f.",
+    "ipa": "/mɛʁ/",
+    "example_fr": "La mer est belle.",
+    "example_en": "The sea is beautiful.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0408",
+    "fr": "montagne",
+    "en": "mountain",
+    "pos": "n.f.",
+    "ipa": "/mɔ̃.taɲ/",
+    "example_fr": "Les montagnes enneigées.",
+    "example_en": "Snow-covered mountains.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0409",
+    "fr": "rivière",
+    "en": "river",
+    "pos": "n.f.",
+    "ipa": "/ʁi.vjɛʁ/",
+    "example_fr": "Une petite rivière.",
+    "example_en": "A small river.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0410",
+    "fr": "forêt",
+    "en": "forest",
+    "pos": "n.f.",
+    "ipa": "/fɔ.ʁɛ/",
+    "example_fr": "Une grande forêt.",
+    "example_en": "A large forest.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0411",
+    "fr": "arbre",
+    "en": "tree",
+    "pos": "n.m.",
+    "ipa": "/aʁbʁ/",
+    "example_fr": "Un grand arbre.",
+    "example_en": "A tall tree.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0412",
+    "fr": "fleur",
+    "en": "flower",
+    "pos": "n.f.",
+    "ipa": "/flœʁ/",
+    "example_fr": "Une belle fleur.",
+    "example_en": "A beautiful flower.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0413",
+    "fr": "terre",
+    "en": "earth; ground",
+    "pos": "n.f.",
+    "ipa": "/tɛʁ/",
+    "example_fr": "La Terre tourne.",
+    "example_en": "The Earth turns.",
+    "theme": "Weather & Nature"
+  },
+  {
+    "id": "fr_0414",
+    "fr": "étoile",
+    "en": "star",
+    "pos": "n.f.",
+    "ipa": "/e.twal/",
+    "example_fr": "Les étoiles brillent.",
+    "example_en": "The stars shine.",
+    "theme": "Weather & Nature"
+  }
+]
