@@ -19,7 +19,15 @@ const tabs = [
 const activeTab = ref('cards')
 
 // Onboarding — show once, then remember
-const onboardingDone = ref(!!localStorage.getItem('lv_onboarding_done'))
+function getOnboardingDone() {
+  try {
+    return !!localStorage.getItem('lv_onboarding_done')
+  } catch {
+    return false
+  }
+}
+
+const onboardingDone = ref(getOnboardingDone())
 
 function dismissOnboarding() {
   onboardingDone.value = true

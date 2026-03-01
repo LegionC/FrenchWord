@@ -16,6 +16,7 @@ const configCount = ref(10)
 const configTheme = ref('All')
 const configScope = ref('all') // 'all' | 'learning'
 const configChoiceRatio = ref(store.settings.quizChoiceRatio)
+const configError = ref('')
 
 // --- Active quiz ---
 const questions = ref([])
@@ -34,8 +35,12 @@ const progress = computed(() =>
 
 // --- Start quiz ---
 function startQuiz() {
+  configError.value = ''
   const pool = store.getFilteredWords(configTheme.value, configScope.value)
-  if (pool.length < 4) return // Need at least 4 words for choice questions
+  if (pool.length === 0) {
+    configError.value = 'No words match the selected filters.'
+    return
+  }
 
   const count = configCount.value === 'all' ? pool.length : Math.min(configCount.value, pool.length)
   questions.value = generateQuiz(pool, count, configChoiceRatio.value, store.words)
@@ -113,7 +118,7 @@ function retry() {
 function reviewWrong() {
   // Re-quiz only the wrong answers
   const pool = wrongAnswers.value.map(w => w.word)
-  if (pool.length < 2) return
+  if (pool.length === 0) return
   configCount.value = pool.length
   const count = pool.length
   questions.value = generateQuiz(pool, count, configChoiceRatio.value, store.words)
@@ -178,6 +183,7 @@ function backToConfig() {
       <button class="btn btn-primary btn-lg config-start" @click="startQuiz">
         Start Quiz 🚀
       </button>
+      <p v-if="configError" class="config-error">{{ configError }}</p>
     </div>
 
     <!-- ACTIVE PHASE -->
@@ -270,6 +276,14 @@ function backToConfig() {
 .config-start {
   margin-top: var(--s-md);
   width: 100%;
+}
+
+.config-error {
+  margin-top: var(--s-sm);
+  text-align: center;
+  color: var(--c-danger);
+  font-size: var(--fs-sm);
+  font-weight: 600;
 }
 
 /* Active */
