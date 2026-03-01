@@ -5,6 +5,7 @@ import FlashCard from '@/components/FlashCard.vue'
 import QuizMode from '@/components/QuizMode.vue'
 import StatsPanel from '@/components/StatsPanel.vue'
 import SettingsPanel from '@/components/SettingsPanel.vue'
+import OnboardingOverlay from '@/components/OnboardingOverlay.vue'
 
 const store = useWordStore()
 
@@ -17,6 +18,14 @@ const tabs = [
 
 const activeTab = ref('cards')
 
+// Onboarding — show once, then remember
+const onboardingDone = ref(!!localStorage.getItem('lv_onboarding_done'))
+
+function dismissOnboarding() {
+  onboardingDone.value = true
+  try { localStorage.setItem('lv_onboarding_done', '1') } catch {}
+}
+
 const storageWarningDismissed = ref(false)
 const showStorageWarning = computed(
   () => !store.storageAvailable && !storageWarningDismissed.value
@@ -24,6 +33,9 @@ const showStorageWarning = computed(
 </script>
 
 <template>
+  <!-- Onboarding -->
+  <OnboardingOverlay v-if="!onboardingDone" @dismiss="dismissOnboarding" />
+
   <div class="app-main">
     <transition name="fade" mode="out-in">
       <FlashCard v-if="activeTab === 'cards'" key="cards" />
@@ -58,29 +70,3 @@ const showStorageWarning = computed(
     </div>
   </transition>
 </template>
-
-<style scoped>
-.placeholder-view {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 60vh;
-  gap: var(--s-md);
-  color: var(--c-text-secondary);
-}
-
-.placeholder-icon {
-  font-size: 3rem;
-}
-
-.placeholder-view h2 {
-  font-size: var(--fs-2xl);
-  font-weight: 700;
-  color: var(--c-text);
-}
-
-.placeholder-view p {
-  font-size: var(--fs-base);
-}
-</style>
