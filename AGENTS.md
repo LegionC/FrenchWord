@@ -1,4 +1,4 @@
-# agents.md
+# AGENTS.md
 
 Project-level operating guide for coding agents working on **Le Vocabulaire**.
 
@@ -8,7 +8,8 @@ Project-level operating guide for coding agents working on **Le Vocabulaire**.
 - Data sources:
   - Static vocabulary: `src/data/words.json`
   - User progress/settings: browser `localStorage`
-- Deploy target: Cloudflare Pages (`wrangler.toml` present).
+- Deploy target: Cloudflare Pages (Git-integrated deploy pipeline).
+- Production URL: `https://fr.legionc.xyz`
 
 ## 2) Goals and Constraints
 - Keep UX mobile-first and lightweight.
@@ -25,6 +26,15 @@ Project-level operating guide for coding agents working on **Le Vocabulaire**.
 Before submitting non-trivial changes, run at least:
 1. `npm run build`
 2. Manual smoke check: Cards / Quiz / Stats / Settings tabs
+
+## 3.1) Deploy Baseline (Cloudflare Pages)
+- Production branch: `main`
+- Build command: `npm run build`
+- Output directory: `dist`
+- Custom domain: `fr.legionc.xyz` (must stay `Active`)
+- Security baseline:
+  - `Always Use HTTPS = On`
+  - `SSL/TLS mode = Full (strict)`
 
 ## 4) Architecture Map
 - Entry: `src/main.js`
@@ -79,7 +89,7 @@ Ask before:
 - Adding dependencies
 - Restructuring large folders
 - Changing persisted data format
-- Altering deploy pipeline
+- Altering deploy pipeline, custom domain, or SSL/TLS baseline
 
 ## 10) Commit Guidance
 Use concise Conventional Commit style when possible:
@@ -90,4 +100,3 @@ Use concise Conventional Commit style when possible:
 
 Example:
 - `fix: use local calendar day for streak calculations`
-
