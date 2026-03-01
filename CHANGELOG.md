@@ -29,6 +29,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Smart Shuffle prioritizes learning words, then new words, then mastered words, while considering review recency and streak.
 - Card order preferences are now persisted with card progress and restored after refresh.
 - App theme now follows the saved appearance mode and automatically tracks system theme changes in System mode.
+- Updated favicon to a French flag SVG and switched app icon reference from `.ico` to `.svg`.
 
 ### Fixed
 - Persist flashcard progress across refresh by restoring theme/filter/current word.
