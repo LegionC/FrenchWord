@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue'
 import { useWordStore } from '@/stores/wordStore'
 import FlashCard from '@/components/FlashCard.vue'
+import QuizMode from '@/components/QuizMode.vue'
 
 const store = useWordStore()
 
@@ -24,13 +25,7 @@ const showStorageWarning = computed(
   <div class="app-main">
     <transition name="fade" mode="out-in">
       <FlashCard v-if="activeTab === 'cards'" key="cards" />
-      <div v-else-if="activeTab === 'quiz'" key="quiz">
-        <div class="placeholder-view">
-          <span class="placeholder-icon">✏️</span>
-          <h2>Quiz</h2>
-          <p>Coming soon</p>
-        </div>
-      </div>
+      <QuizMode v-else-if="activeTab === 'quiz'" key="quiz" />
       <div v-else-if="activeTab === 'stats'" key="stats">
         <div class="placeholder-view">
           <span class="placeholder-icon">📊</span>
