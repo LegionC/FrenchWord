@@ -1,9 +1,11 @@
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useWordStore } from '@/stores/wordStore'
 import AudioBtn from '@/components/AudioBtn.vue'
 
 const store = useWordStore()
+const CARDS_PROGRESS_KEY = 'lv_cards_progress'
+const VALID_FILTERS = new Set(['all', 'learning'])
 
 // --- Filters ---
 const selectedTheme = ref('All')
@@ -16,8 +18,10 @@ const filteredWords = computed(() =>
 // --- Card navigation ---
 const currentIndex = ref(0)
 const isFlipped = ref(false)
+const hasHydrated = ref(false)
 
 const currentWord = computed(() => filteredWords.value[currentIndex.value] || null)
+const currentWordId = computed(() => currentWord.value?.id || null)
 const wordStatus = computed(() =>
   currentWord.value ? store.getStatus(currentWord.value.id) : null
 )
@@ -25,6 +29,57 @@ const total = computed(() => filteredWords.value.length)
 const progress = computed(() =>
   total.value > 0 ? ((currentIndex.value + 1) / total.value) * 100 : 0
 )
+
+function clampCurrentIndex() {
+  if (total.value <= 0) {
+    currentIndex.value = 0
+    return
+  }
+  if (currentIndex.value > total.value - 1) {
+    currentIndex.value = total.value - 1
+  } else if (currentIndex.value < 0) {
+    currentIndex.value = 0
+  }
+}
+
+function restoreCardProgress() {
+  try {
+    const raw = localStorage.getItem(CARDS_PROGRESS_KEY)
+    if (!raw) return
+    const saved = JSON.parse(raw)
+    if (!saved || typeof saved !== 'object') return
+
+    if (typeof saved.theme === 'string' && store.themes.includes(saved.theme)) {
+      selectedTheme.value = saved.theme
+    }
+    if (typeof saved.filter === 'string' && VALID_FILTERS.has(saved.filter)) {
+      selectedFilter.value = saved.filter
+    }
+
+    if (typeof saved.currentWordId === 'string') {
+      const restoredIdx = filteredWords.value.findIndex(w => w.id === saved.currentWordId)
+      if (restoredIdx >= 0) {
+        currentIndex.value = restoredIdx
+      }
+    }
+  } catch {
+    // Ignore invalid localStorage data and keep defaults.
+  }
+}
+
+function persistCardProgress() {
+  if (!hasHydrated.value) return
+  const payload = {
+    theme: selectedTheme.value,
+    filter: selectedFilter.value,
+    currentWordId: currentWordId.value
+  }
+  try {
+    localStorage.setItem(CARDS_PROGRESS_KEY, JSON.stringify(payload))
+  } catch {
+    // Ignore storage failures and keep app usable.
+  }
+}
 
 function goNext() {
   if (currentIndex.value < total.value - 1) {
@@ -46,8 +101,21 @@ function flipCard() {
 
 function handleKnown() {
   if (!currentWord.value) return
-  store.markKnown(currentWord.value.id)
-  goNext()
+  const reviewedId = currentWord.value.id
+  const reviewedIndex = currentIndex.value
+  store.markKnown(reviewedId)
+  isFlipped.value = false
+
+  setTimeout(() => {
+    // In "Not Mastered" view, mastered words are removed immediately.
+    // If that happens, we are already on the next word and should not skip again.
+    const wordStillAtSameIndex = filteredWords.value[reviewedIndex]?.id === reviewedId
+    if (wordStillAtSameIndex && currentIndex.value < total.value - 1) {
+      currentIndex.value++
+    } else {
+      clampCurrentIndex()
+    }
+  }, 100)
 }
 
 function handleUnknown() {
@@ -90,8 +158,26 @@ function onKeyDown(e) {
   }
 }
 
-onMounted(() => window.addEventListener('keydown', onKeyDown))
-onUnmounted(() => window.removeEventListener('keydown', onKeyDown))
+watch(filteredWords, () => {
+  clampCurrentIndex()
+})
+
+watch([selectedTheme, selectedFilter, currentWordId], () => {
+  persistCardProgress()
+})
+
+onMounted(() => {
+  restoreCardProgress()
+  clampCurrentIndex()
+  hasHydrated.value = true
+  persistCardProgress()
+  window.addEventListener('keydown', onKeyDown)
+})
+
+onUnmounted(() => {
+  persistCardProgress()
+  window.removeEventListener('keydown', onKeyDown)
+})
 </script>
 
 <template>

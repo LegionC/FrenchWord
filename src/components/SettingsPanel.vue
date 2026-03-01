@@ -41,7 +41,8 @@ function exportData() {
 }
 
 function importData(event) {
-  const file = event.target.files[0]
+  const input = event.target
+  const file = input?.files?.[0]
   if (!file) return
   const reader = new FileReader()
   reader.onload = (e) => {
@@ -54,6 +55,7 @@ function importData(event) {
     } else {
       alert('Failed to import data. Invalid file format.')
     }
+    if (input) input.value = ''
   }
   reader.readAsText(file)
 }
