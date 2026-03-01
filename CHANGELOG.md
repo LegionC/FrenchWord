@@ -7,7 +7,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
-- No unreleased changes yet.
+- Flashcards now support three study orders: Sequential, Shuffle, and Smart Shuffle.
+
+### Changed
+- Smart Shuffle prioritizes learning words, then new words, then mastered words, while considering review recency and streak.
+- Card order preferences are now persisted with card progress and restored after refresh.
 
 ## [2026-03-01]
 

@@ -6,14 +6,63 @@ import AudioBtn from '@/components/AudioBtn.vue'
 const store = useWordStore()
 const CARDS_PROGRESS_KEY = 'lv_cards_progress'
 const VALID_FILTERS = new Set(['all', 'learning'])
+const VALID_ORDER_MODES = new Set(['sequential', 'shuffle', 'smart'])
 
 // --- Filters ---
 const selectedTheme = ref('All')
 const selectedFilter = ref('all') // 'all' | 'learning'
+const selectedOrder = ref('sequential') // 'sequential' | 'shuffle' | 'smart'
+const shuffleSeed = ref(Date.now())
 
-const filteredWords = computed(() =>
+const baseWords = computed(() =>
   store.getFilteredWords(selectedTheme.value, selectedFilter.value)
 )
+
+function hashWithSeed(input, seed = 0) {
+  let h = seed | 0
+  for (let i = 0; i < input.length; i++) {
+    h = Math.imul(31, h) + input.charCodeAt(i) | 0
+  }
+  return h >>> 0
+}
+
+function daysSinceReviewed(lastReviewed) {
+  if (!lastReviewed) return 9999
+  const parsed = new Date(lastReviewed)
+  if (Number.isNaN(parsed.getTime())) return 9999
+  return Math.max(0, Math.floor((Date.now() - parsed.getTime()) / 86400000))
+}
+
+function smartCompare(a, b) {
+  const aStatus = store.getStatus(a.id)
+  const bStatus = store.getStatus(b.id)
+
+  const statusRank = { learning: 0, new: 1, mastered: 2 }
+  const aRank = statusRank[aStatus.status] ?? 3
+  const bRank = statusRank[bStatus.status] ?? 3
+  if (aRank !== bRank) return aRank - bRank
+
+  const aDays = daysSinceReviewed(aStatus.lastReviewed)
+  const bDays = daysSinceReviewed(bStatus.lastReviewed)
+  if (aDays !== bDays) return bDays - aDays
+
+  const aStreak = Number.isFinite(aStatus.streak) ? aStatus.streak : 0
+  const bStreak = Number.isFinite(bStatus.streak) ? bStatus.streak : 0
+  if (aStreak !== bStreak) return aStreak - bStreak
+
+  return hashWithSeed(a.id, shuffleSeed.value) - hashWithSeed(b.id, shuffleSeed.value)
+}
+
+const filteredWords = computed(() => {
+  const list = [...baseWords.value]
+  if (selectedOrder.value === 'sequential') return list
+  if (selectedOrder.value === 'shuffle') {
+    return list.sort((a, b) =>
+      hashWithSeed(a.id, shuffleSeed.value) - hashWithSeed(b.id, shuffleSeed.value)
+    )
+  }
+  return list.sort(smartCompare)
+})
 
 // --- Card navigation ---
 const currentIndex = ref(0)
@@ -65,6 +114,12 @@ function restoreCardProgress() {
     if (typeof saved.filter === 'string' && VALID_FILTERS.has(saved.filter)) {
       selectedFilter.value = saved.filter
     }
+    if (typeof saved.order === 'string' && VALID_ORDER_MODES.has(saved.order)) {
+      selectedOrder.value = saved.order
+    }
+    if (Number.isInteger(saved.shuffleSeed)) {
+      shuffleSeed.value = saved.shuffleSeed
+    }
 
     if (typeof saved.currentWordId === 'string') {
       const restoredIdx = filteredWords.value.findIndex(w => w.id === saved.currentWordId)
@@ -82,6 +137,8 @@ function persistCardProgress() {
   const payload = {
     theme: selectedTheme.value,
     filter: selectedFilter.value,
+    order: selectedOrder.value,
+    shuffleSeed: shuffleSeed.value,
     currentWordId: currentWordId.value
   }
   try {
@@ -140,6 +197,20 @@ function onFilterChange() {
   isFlipped.value = false
 }
 
+function onOrderChange() {
+  if (selectedOrder.value === 'shuffle') {
+    shuffleSeed.value = Date.now()
+  }
+  currentIndex.value = 0
+  isFlipped.value = false
+}
+
+function reshuffleOrder() {
+  shuffleSeed.value = Date.now()
+  currentIndex.value = 0
+  isFlipped.value = false
+}
+
 // --- Swipe gesture ---
 let touchStartX = 0
 let touchStartY = 0
@@ -172,7 +243,7 @@ watch(filteredWords, () => {
   clampCurrentIndex()
 })
 
-watch([selectedTheme, selectedFilter, currentWordId], () => {
+watch([selectedTheme, selectedFilter, selectedOrder, shuffleSeed, currentWordId], () => {
   persistCardProgress()
 })
 
@@ -216,6 +287,21 @@ onUnmounted(() => {
           <option value="all">All Words</option>
           <option value="learning">Not Mastered</option>
         </select>
+      </div>
+
+      <div class="cards-order-row">
+        <select v-model="selectedOrder" @change="onOrderChange" class="filter-select order-select">
+          <option value="sequential">Order: Sequential</option>
+          <option value="shuffle">Order: Shuffle</option>
+          <option value="smart">Order: Smart Shuffle</option>
+        </select>
+        <button
+          v-if="selectedOrder !== 'sequential'"
+          class="btn btn-ghost remix-btn"
+          @click="reshuffleOrder"
+        >
+          Reshuffle
+        </button>
       </div>
     </div>
 
@@ -329,6 +415,11 @@ onUnmounted(() => {
   gap: var(--s-sm);
 }
 
+.cards-order-row {
+  display: flex;
+  gap: var(--s-sm);
+}
+
 .filter-select {
   flex: 1;
   padding: var(--s-sm) var(--s-md);
@@ -344,6 +435,15 @@ onUnmounted(() => {
   background-repeat: no-repeat;
   background-position: right 10px center;
   padding-right: 28px;
+}
+
+.order-select {
+  flex: 1;
+}
+
+.remix-btn {
+  flex-shrink: 0;
+  min-width: 96px;
 }
 
 /* --- Flash Card --- */
