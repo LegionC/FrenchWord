@@ -6,14 +6,15 @@ import QuizMode from '@/components/QuizMode.vue'
 import StatsPanel from '@/components/StatsPanel.vue'
 import SettingsPanel from '@/components/SettingsPanel.vue'
 import OnboardingOverlay from '@/components/OnboardingOverlay.vue'
+import AppIcon from '@/components/AppIcon.vue'
 
 const store = useWordStore()
 
 const tabs = [
-  { id: 'cards', icon: '📚', label: 'Cards' },
-  { id: 'quiz', icon: '✏️', label: 'Quiz' },
-  { id: 'stats', icon: '📊', label: 'Stats' },
-  { id: 'settings', icon: '⚙️', label: 'Settings' },
+  { id: 'cards', icon: 'cards', label: 'Cards' },
+  { id: 'quiz', icon: 'quiz', label: 'Quiz' },
+  { id: 'stats', icon: 'stats', label: 'Stats' },
+  { id: 'settings', icon: 'settings', label: 'Settings' },
 ]
 
 const activeTab = ref('cards')
@@ -62,7 +63,7 @@ const showStorageWarning = computed(
       :class="{ active: activeTab === tab.id }"
       @click="activeTab = tab.id"
     >
-      <span class="nav-icon">{{ tab.icon }}</span>
+      <span class="nav-icon"><AppIcon :name="tab.icon" :size="18" /></span>
       <span>{{ tab.label }}</span>
     </button>
   </nav>
@@ -74,7 +75,8 @@ const showStorageWarning = computed(
       class="toast"
       @click="storageWarningDismissed = true"
     >
-      ⚠️ Browser can't save data — progress will be lost on close
+      <AppIcon name="warning" :size="14" />
+      Browser can't save data - progress will be lost on close
     </div>
   </transition>
 </template>

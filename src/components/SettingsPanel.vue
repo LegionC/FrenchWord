@@ -63,7 +63,7 @@ function importData(event) {
 
 <template>
   <div class="settings-view">
-    <h2 class="settings-title">⚙️ Settings</h2>
+    <h2 class="settings-title">Settings</h2>
 
     <!-- Learning preferences -->
     <div class="settings-section">
@@ -87,12 +87,12 @@ function importData(event) {
             class="btn"
             :class="ttsSpeed === 0.7 ? 'btn-primary' : 'btn-ghost'"
             @click="ttsSpeed = 0.7"
-          >🐢 Slow</button>
+          >Slow</button>
           <button
             class="btn"
             :class="ttsSpeed === 1 ? 'btn-primary' : 'btn-ghost'"
             @click="ttsSpeed = 1"
-          >🐇 Normal</button>
+          >Normal</button>
         </div>
       </label>
 
@@ -105,7 +105,7 @@ function importData(event) {
       </label>
 
       <button class="btn btn-primary btn-lg save-btn" @click="saveSettings">
-        {{ saved ? '✅ Saved!' : 'Save Settings' }}
+        {{ saved ? 'Saved' : 'Save Settings' }}
       </button>
     </div>
 
@@ -115,11 +115,11 @@ function importData(event) {
 
       <div class="data-actions">
         <button class="btn btn-ghost btn-lg" @click="exportData">
-          📤 Export Learning Data
+          Export Learning Data
         </button>
 
         <label class="btn btn-ghost btn-lg import-label">
-          📥 Import Learning Data
+          Import Learning Data
           <input type="file" accept=".json" @change="importData" class="import-input" />
         </label>
 
@@ -128,11 +128,11 @@ function importData(event) {
           class="btn btn-ghost btn-lg reset-btn"
           @click="showResetConfirm = true"
         >
-          🗑️ Reset All Data
+          Reset All Data
         </button>
 
         <div v-else class="reset-confirm">
-          <p class="reset-warning">⚠️ This will erase all learning progress. Are you sure?</p>
+          <p class="reset-warning">This will erase all learning progress. Are you sure?</p>
           <div class="reset-actions">
             <button class="btn btn-danger" @click="confirmReset">Yes, Reset</button>
             <button class="btn btn-ghost" @click="showResetConfirm = false">Cancel</button>

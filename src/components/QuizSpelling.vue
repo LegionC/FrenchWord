@@ -63,7 +63,7 @@ function onKeydown(e) {
     <!-- Hint -->
     <div class="hint-area">
       <button v-if="!showHint && !answered" class="btn btn-ghost" @click="revealHint">
-        💡 Show hint (-0.5 pts)
+        Show hint (-0.5 pts)
       </button>
       <div v-if="showHint" class="hint-text">
         Starts with: <strong>{{ question.word.fr[0].toUpperCase() }}...</strong>
@@ -83,7 +83,7 @@ function onKeydown(e) {
         @keydown="onKeydown"
       />
       <button class="btn btn-primary btn-lg" @click="submit" :disabled="!userInput.trim()">
-        Check ✓
+        Check
       </button>
     </div>
 
@@ -98,7 +98,7 @@ function onKeydown(e) {
         >{{ d.userChar || '·' }}</span>
       </div>
       <div class="correct-answer">
-        ✅ Correct: <strong>{{ question.word.fr }}</strong>
+        Correct answer: <strong>{{ question.word.fr }}</strong>
       </div>
     </div>
 

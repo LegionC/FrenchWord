@@ -7,22 +7,18 @@ const step = ref(0)
 
 const steps = [
   {
-    emoji: '🇫🇷',
     title: 'Bienvenue!',
     text: 'Welcome to Le Vocabulaire — your personal French word trainer with 414 A1-level words.'
   },
   {
-    emoji: '📚',
     title: 'Learn with Cards',
-    text: 'Flip cards to learn French words. Tap ✓ Got it or ✗ Forgot to track your progress. Master a word by getting it right 3 times in a row.'
+    text: 'Flip cards to learn French words. Use Known or Forgot to track progress. Master a word by getting it right 3 times in a row.'
   },
   {
-    emoji: '✏️',
     title: 'Test with Quizzes',
     text: 'Challenge yourself with multiple choice and spelling quizzes. Use the accent keyboard for special French characters.'
   },
   {
-    emoji: '📊',
     title: 'Track Your Progress',
     text: 'All progress is saved in your browser. Check the Stats tab to see how you\'re doing across themes.'
   }
@@ -46,7 +42,6 @@ function skip() {
     <div class="onboarding-card">
       <transition name="slide-up" mode="out-in">
         <div :key="step" class="onboarding-content">
-          <span class="onboarding-emoji">{{ steps[step].emoji }}</span>
           <h2>{{ steps[step].title }}</h2>
           <p>{{ steps[step].text }}</p>
         </div>
@@ -65,7 +60,7 @@ function skip() {
       <div class="onboarding-actions">
         <button class="btn btn-ghost" @click="skip">Skip</button>
         <button class="btn btn-primary btn-lg" @click="next">
-          {{ step < steps.length - 1 ? 'Next →' : 'Start Learning 🚀' }}
+          {{ step < steps.length - 1 ? 'Next' : 'Start Learning' }}
         </button>
       </div>
     </div>
@@ -102,10 +97,6 @@ function skip() {
   gap: var(--s-md);
   min-height: 180px;
   justify-content: center;
-}
-
-.onboarding-emoji {
-  font-size: 3.5rem;
 }
 
 .onboarding-content h2 {

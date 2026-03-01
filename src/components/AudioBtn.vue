@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import { speak, isTTSSupported } from '@/utils/speech'
 import { useWordStore } from '@/stores/wordStore'
+import AppIcon from '@/components/AppIcon.vue'
 
 const props = defineProps({
   text: { type: String, required: true },
@@ -33,10 +34,12 @@ async function play() {
     :disabled="speaking"
     :title="speaking ? 'Playing...' : 'Listen'"
   >
-    <span class="audio-btn-icon">{{ speaking ? '🔊' : '🔈' }}</span>
+    <span class="audio-btn-icon">
+      <AppIcon :name="speaking ? 'volume-high' : 'volume'" :size="size === 'lg' ? 22 : size === 'sm' ? 14 : 18" />
+    </span>
   </button>
   <span v-else class="audio-unsupported" title="TTS not supported in this browser">
-    🔇
+    <AppIcon name="volume" :size="16" />
   </span>
 </template>
 
@@ -74,7 +77,7 @@ async function play() {
   transform: scale(1.05);
 }
 .audio-btn:hover:not(:disabled) .audio-btn-icon {
-  filter: brightness(2);
+  opacity: 0.95;
 }
 
 .audio-btn--speaking {
@@ -83,7 +86,9 @@ async function play() {
 }
 
 .audio-unsupported {
-  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0.4;
   cursor: not-allowed;
 }

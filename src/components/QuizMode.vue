@@ -141,7 +141,7 @@ function backToConfig() {
   <div class="quiz-view">
     <!-- CONFIG PHASE -->
     <div v-if="phase === 'config'" class="quiz-config">
-      <h2 class="config-title">✏️ Quiz Setup</h2>
+      <h2 class="config-title">Quiz Setup</h2>
 
       <div class="config-form">
         <label class="config-field">
@@ -181,7 +181,7 @@ function backToConfig() {
       </div>
 
       <button class="btn btn-primary btn-lg config-start" @click="startQuiz">
-        Start Quiz 🚀
+        Start Quiz
       </button>
       <p v-if="configError" class="config-error">{{ configError }}</p>
     </div>

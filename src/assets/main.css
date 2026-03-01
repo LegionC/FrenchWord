@@ -179,8 +179,11 @@ input {
 }
 
 .nav-item .nav-icon {
-  font-size: 1.35rem;
-  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
 }
 
 /* --- Utility Classes --- */
@@ -313,6 +316,9 @@ input {
   bottom: calc(var(--nav-height) + var(--s-md));
   left: 50%;
   transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-sm);
   padding: var(--s-sm) var(--s-md);
   background: var(--c-text);
   color: white;

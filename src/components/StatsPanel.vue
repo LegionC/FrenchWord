@@ -16,7 +16,7 @@ const recentQuizzes = computed(() => store.quizHistory.slice(0, 5))
 
 <template>
   <div class="stats-view">
-    <h2 class="stats-title">📊 Learning Stats</h2>
+    <h2 class="stats-title">Learning Stats</h2>
 
     <!-- Summary cards -->
     <div class="stats-grid">
@@ -34,7 +34,7 @@ const recentQuizzes = computed(() => store.quizHistory.slice(0, 5))
       </div>
 
       <div class="stat-card">
-        <div class="stat-value">🔥 {{ store.streakData.count }}</div>
+        <div class="stat-value">{{ store.streakData.count }}</div>
         <div class="stat-label">Day Streak</div>
       </div>
 

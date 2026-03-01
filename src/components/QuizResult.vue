@@ -12,19 +12,19 @@ function formatTime(seconds) {
   return `${m}:${String(s).padStart(2, '0')}`
 }
 
-function gradeEmoji(accuracy) {
-  if (accuracy >= 90) return '🏆'
-  if (accuracy >= 70) return '🌟'
-  if (accuracy >= 50) return '👍'
-  return '💪'
+function gradeLabel(accuracy) {
+  if (accuracy >= 90) return 'Excellent'
+  if (accuracy >= 70) return 'Great'
+  if (accuracy >= 50) return 'Good'
+  return 'Keep Going'
 }
 </script>
 
 <template>
   <div class="quiz-result">
     <div class="result-header">
-      <span class="result-emoji">{{ gradeEmoji(results.accuracy) }}</span>
       <h2 class="result-title">Quiz Complete!</h2>
+      <p class="result-grade">{{ gradeLabel(results.accuracy) }}</p>
     </div>
 
     <div class="result-stats">
@@ -48,7 +48,7 @@ function gradeEmoji(accuracy) {
 
     <!-- Wrong answers -->
     <div v-if="results.wrongAnswers.length > 0" class="wrong-section">
-      <h3>📝 Review These Words ({{ results.wrongAnswers.length }})</h3>
+      <h3>Review These Words ({{ results.wrongAnswers.length }})</h3>
       <div class="wrong-list">
         <div v-for="item in results.wrongAnswers" :key="item.word.id" class="wrong-item">
           <div class="wrong-fr">{{ item.word.fr }}</div>
@@ -59,17 +59,17 @@ function gradeEmoji(accuracy) {
 
     <div class="result-actions">
       <button class="btn btn-primary btn-lg" @click="emit('retry')">
-        🔄 Try Again
+        Try Again
       </button>
       <button
         v-if="results.wrongAnswers.length > 0"
         class="btn btn-ghost btn-lg"
         @click="emit('review-wrong')"
       >
-        📚 Review Wrong Answers
+        Review Wrong Answers
       </button>
       <button class="btn btn-ghost btn-lg" @click="emit('back')">
-        ← Back to Menu
+        Back to Menu
       </button>
     </div>
   </div>
@@ -88,15 +88,18 @@ function gradeEmoji(accuracy) {
   padding: var(--s-lg) 0;
 }
 
-.result-emoji {
-  font-size: 3.5rem;
-  display: block;
-  margin-bottom: var(--s-sm);
-}
-
 .result-title {
   font-size: var(--fs-2xl);
   font-weight: 700;
+}
+
+.result-grade {
+  margin-top: var(--s-xs);
+  font-size: var(--fs-sm);
+  color: var(--c-text-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 /* Stats grid */

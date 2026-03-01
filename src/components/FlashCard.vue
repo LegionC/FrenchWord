@@ -25,6 +25,16 @@ const currentWordId = computed(() => currentWord.value?.id || null)
 const wordStatus = computed(() =>
   currentWord.value ? store.getStatus(currentWord.value.id) : null
 )
+const wordStatusLabel = computed(() => {
+  if (!wordStatus.value) return ''
+  if (wordStatus.value.status === 'mastered') return 'Mastered'
+  if (wordStatus.value.status === 'learning') return 'Learning'
+  return 'New'
+})
+const wordStatusClass = computed(() => {
+  if (!wordStatus.value) return ''
+  return `status-${wordStatus.value.status}`
+})
 const total = computed(() => filteredWords.value.length)
 const progress = computed(() =>
   total.value > 0 ? ((currentIndex.value + 1) / total.value) * 100 : 0
@@ -187,9 +197,8 @@ onUnmounted(() => {
       <div class="cards-progress-info">
         <span class="cards-counter" v-if="total > 0">{{ currentIndex + 1 }} / {{ total }}</span>
         <span class="cards-counter" v-else>No words</span>
-        <div class="badge" v-if="wordStatus">
-          {{ wordStatus.status === 'mastered' ? '✅ Mastered' :
-             wordStatus.status === 'learning' ? '🔄 Learning' : '🆕 New' }}
+        <div class="badge" :class="wordStatusClass" v-if="wordStatus">
+          {{ wordStatusLabel }}
         </div>
       </div>
 
@@ -200,7 +209,7 @@ onUnmounted(() => {
       <div class="cards-filters">
         <select v-model="selectedTheme" @change="onFilterChange" class="filter-select">
           <option v-for="t in store.themes" :key="t" :value="t">
-            {{ t === 'All' ? '📂 All Themes' : t }}
+            {{ t === 'All' ? 'All Themes' : t }}
           </option>
         </select>
         <select v-model="selectedFilter" @change="onFilterChange" class="filter-select">
@@ -239,7 +248,6 @@ onUnmounted(() => {
 
     <!-- Empty state -->
     <div v-else class="cards-empty">
-      <span class="placeholder-icon">🎉</span>
       <h3>All done!</h3>
       <p>No words match the current filter.</p>
       <button class="btn btn-primary" @click="selectedFilter = 'all'; onFilterChange()">
@@ -250,16 +258,16 @@ onUnmounted(() => {
     <!-- Action bar -->
     <div class="cards-actions" v-if="currentWord">
       <button class="btn btn-ghost btn-icon" @click="goPrev" :disabled="currentIndex === 0">
-        ◀
+        Prev
       </button>
 
       <transition name="fade">
         <div v-if="isFlipped" class="cards-verdict">
           <button class="btn btn-danger btn-lg" @click.stop="handleUnknown">
-            ✗ Forgot
+            Forgot
           </button>
           <button class="btn btn-success btn-lg" @click.stop="handleKnown">
-            ✓ Got it
+            Known
           </button>
         </div>
         <div v-else class="cards-hint">
@@ -268,7 +276,7 @@ onUnmounted(() => {
       </transition>
 
       <button class="btn btn-ghost btn-icon" @click="goNext" :disabled="currentIndex >= total - 1">
-        ▶
+        Next
       </button>
     </div>
   </div>
@@ -299,6 +307,21 @@ onUnmounted(() => {
   font-weight: 600;
   font-size: var(--fs-sm);
   color: var(--c-text-secondary);
+}
+
+.badge.status-mastered {
+  background: var(--c-success-bg);
+  color: var(--c-success);
+}
+
+.badge.status-learning {
+  background: var(--c-warning-bg);
+  color: var(--c-warning);
+}
+
+.badge.status-new {
+  background: var(--c-primary-glow);
+  color: var(--c-primary);
 }
 
 .cards-filters {
@@ -458,5 +481,13 @@ onUnmounted(() => {
 .cards-empty h3 {
   font-size: var(--fs-xl);
   color: var(--c-text);
+}
+
+.btn-icon {
+  min-width: 56px;
+  width: auto;
+  padding-inline: var(--s-md);
+  border-radius: var(--r-full);
+  font-size: var(--fs-sm);
 }
 </style>

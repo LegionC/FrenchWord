@@ -6,8 +6,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-### Added
-- No unreleased changes yet.
+### Changed
+- Replaced emoji-based UI labels with consistent text-first labels across Cards, Quiz, Stats, Settings, and onboarding.
+- Added lightweight internal SVG icons for bottom navigation, audio controls, and storage warning toast.
 
 ## [2026-03-01]
 
