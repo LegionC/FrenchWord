@@ -1,38 +1,42 @@
-# ./
+# 🇫🇷 Le Vocabulaire
 
-This template should help get you started developing with Vue 3 in Vite.
+A French vocabulary learning web app — flashcards, quizzes, and progress tracking for A1-level learners.
 
-## Recommended IDE Setup
+![Vue 3](https://img.shields.io/badge/Vue-3-42b883) ![Vite](https://img.shields.io/badge/Vite-7-646cff) ![Pinia](https://img.shields.io/badge/Pinia-state-f7d336)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+- **📚 Flashcards** — 414 words across 14 themes, 3D flip animation, swipe gestures, French TTS
+- **✏️ Quiz Mode** — Multiple choice + spelling with French accent keyboard
+- **📊 Stats** — Daily progress, mastery rate, streak tracking, per-theme breakdown
+- **⚙️ Settings** — Daily goal, TTS speed, data export/import/reset
+- **💾 Offline** — All data stored in browser localStorage, no backend needed
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Tech Stack
 
-## Customize configuration
+| Layer | Choice |
+|---|---|
+| Framework | Vue 3 (Composition API) |
+| Build | Vite |
+| State | Pinia → localStorage |
+| Styling | CSS Variables |
+| Speech | Web Speech API |
+| Deploy | Cloudflare Pages |
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Getting Started
 
-## Project Setup
-
-```sh
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start dev server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
 ```
+
+## Documentation
+
+- [PRD v1.3](docs/PRD.md) — Product requirements document
+- [CLAUDE.md](CLAUDE.md) — Project context for AI assistants
