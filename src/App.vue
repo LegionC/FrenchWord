@@ -3,6 +3,8 @@ import { ref, computed } from 'vue'
 import { useWordStore } from '@/stores/wordStore'
 import FlashCard from '@/components/FlashCard.vue'
 import QuizMode from '@/components/QuizMode.vue'
+import StatsPanel from '@/components/StatsPanel.vue'
+import SettingsPanel from '@/components/SettingsPanel.vue'
 
 const store = useWordStore()
 
@@ -26,20 +28,8 @@ const showStorageWarning = computed(
     <transition name="fade" mode="out-in">
       <FlashCard v-if="activeTab === 'cards'" key="cards" />
       <QuizMode v-else-if="activeTab === 'quiz'" key="quiz" />
-      <div v-else-if="activeTab === 'stats'" key="stats">
-        <div class="placeholder-view">
-          <span class="placeholder-icon">📊</span>
-          <h2>Stats</h2>
-          <p>Mastered: {{ store.masteredCount }} / {{ store.words.length }}</p>
-        </div>
-      </div>
-      <div v-else-if="activeTab === 'settings'" key="settings">
-        <div class="placeholder-view">
-          <span class="placeholder-icon">⚙️</span>
-          <h2>Settings</h2>
-          <p>Coming soon</p>
-        </div>
-      </div>
+      <StatsPanel v-else-if="activeTab === 'stats'" key="stats" />
+      <SettingsPanel v-else-if="activeTab === 'settings'" key="settings" />
     </transition>
   </div>
 
