@@ -8,10 +8,12 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - Flashcards now support three study orders: Sequential, Shuffle, and Smart Shuffle.
+- Added dark mode support with Light / Dark / System appearance options in Settings.
 
 ### Changed
 - Smart Shuffle prioritizes learning words, then new words, then mastered words, while considering review recency and streak.
 - Card order preferences are now persisted with card progress and restored after refresh.
+- App theme now follows the saved appearance mode and automatically tracks system theme changes in System mode.
 
 ## [2026-03-01]
 

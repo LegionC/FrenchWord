@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useWordStore } from '@/stores/wordStore'
 import FlashCard from '@/components/FlashCard.vue'
 import QuizMode from '@/components/QuizMode.vue'
@@ -38,6 +38,44 @@ function dismissOnboarding() {
 const storageWarningDismissed = ref(false)
 const showStorageWarning = computed(
   () => !store.storageAvailable && !storageWarningDismissed.value
+)
+
+function getSystemTheme() {
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+}
+
+function resolveThemeMode(mode) {
+  return mode === 'light' || mode === 'dark' ? mode : getSystemTheme()
+}
+
+function applyTheme(mode) {
+  const resolved = resolveThemeMode(mode)
+  document.documentElement.setAttribute('data-theme', resolved)
+}
+
+let mediaQueryList = null
+let onSystemThemeChange = null
+
+onMounted(() => {
+  mediaQueryList = window.matchMedia('(prefers-color-scheme: dark)')
+  onSystemThemeChange = () => {
+    if (store.settings.themeMode === 'system') {
+      applyTheme('system')
+    }
+  }
+  mediaQueryList.addEventListener('change', onSystemThemeChange)
+})
+
+onUnmounted(() => {
+  if (mediaQueryList && onSystemThemeChange) {
+    mediaQueryList.removeEventListener('change', onSystemThemeChange)
+  }
+})
+
+watch(
+  () => store.settings.themeMode,
+  (mode) => applyTheme(mode),
+  { immediate: true }
 )
 </script>
 

@@ -8,12 +8,14 @@ const store = useWordStore()
 const dailyGoal = ref(store.settings.dailyGoal)
 const ttsSpeed = ref(store.settings.ttsSpeed)
 const quizRatio = ref(store.settings.quizChoiceRatio)
+const themeMode = ref(store.settings.themeMode || 'system')
 
 function saveSettings() {
   store.updateSettings({
     dailyGoal: dailyGoal.value,
     ttsSpeed: ttsSpeed.value,
-    quizChoiceRatio: quizRatio.value
+    quizChoiceRatio: quizRatio.value,
+    themeMode: themeMode.value
   })
   saved.value = true
   setTimeout(() => saved.value = false, 2000)
@@ -51,6 +53,7 @@ function importData(event) {
       dailyGoal.value = store.settings.dailyGoal
       ttsSpeed.value = store.settings.ttsSpeed
       quizRatio.value = store.settings.quizChoiceRatio
+      themeMode.value = store.settings.themeMode || 'system'
       alert('Data imported successfully!')
     } else {
       alert('Failed to import data. Invalid file format.')
@@ -102,6 +105,30 @@ function importData(event) {
           <span class="setting-value">Choice {{ quizRatio }}% / Spelling {{ 100 - quizRatio }}%</span>
         </div>
         <input type="range" v-model.number="quizRatio" min="0" max="100" step="10" class="setting-slider" />
+      </label>
+
+      <label class="setting-item">
+        <div class="setting-info">
+          <span class="setting-label">Appearance</span>
+          <span class="setting-value">{{ themeMode === 'system' ? 'System' : themeMode === 'dark' ? 'Dark' : 'Light' }}</span>
+        </div>
+        <div class="speed-toggle">
+          <button
+            class="btn"
+            :class="themeMode === 'light' ? 'btn-primary' : 'btn-ghost'"
+            @click="themeMode = 'light'"
+          >Light</button>
+          <button
+            class="btn"
+            :class="themeMode === 'dark' ? 'btn-primary' : 'btn-ghost'"
+            @click="themeMode = 'dark'"
+          >Dark</button>
+          <button
+            class="btn"
+            :class="themeMode === 'system' ? 'btn-primary' : 'btn-ghost'"
+            @click="themeMode = 'system'"
+          >System</button>
+        </div>
       </label>
 
       <button class="btn btn-primary btn-lg save-btn" @click="saveSettings">

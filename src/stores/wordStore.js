@@ -6,6 +6,7 @@ const DEFAULT_SETTINGS = {
   dailyGoal: 20,
   ttsSpeed: 1,
   quizChoiceRatio: 50, // % of choice questions (rest = spelling)
+  themeMode: 'system', // 'system' | 'light' | 'dark'
 }
 
 const VALID_STATUS = new Set(['new', 'learning', 'mastered'])
@@ -59,7 +60,8 @@ function normalizeSettings(raw) {
   const ttsSpeed = source.ttsSpeed === 0.7 ? 0.7 : 1
   const ratioRaw = clampInt(source.quizChoiceRatio, 0, 100, DEFAULT_SETTINGS.quizChoiceRatio)
   const quizChoiceRatio = Math.min(100, Math.max(0, Math.round(ratioRaw / 10) * 10))
-  return { dailyGoal, ttsSpeed, quizChoiceRatio }
+  const themeMode = source.themeMode === 'light' || source.themeMode === 'dark' ? source.themeMode : 'system'
+  return { dailyGoal, ttsSpeed, quizChoiceRatio, themeMode }
 }
 
 function sanitizeWordStatus(raw) {
