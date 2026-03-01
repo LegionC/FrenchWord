@@ -6,9 +6,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-### Changed
-- Replaced emoji-based UI labels with consistent text-first labels across Cards, Quiz, Stats, Settings, and onboarding.
-- Added lightweight internal SVG icons for bottom navigation, audio controls, and storage warning toast.
+### Added
+- No unreleased changes yet.
 
 ## [2026-03-01]
 
@@ -23,6 +22,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 - Hardened local date and localStorage sanitization logic in store and quiz setup flow.
 - Updated repository docs, including README/PRD structure and AGENTS guidance.
+- Replaced emoji-based UI labels with consistent text-first labels across Cards, Quiz, Stats, Settings, and onboarding.
+- Added lightweight internal SVG icons for bottom navigation, audio controls, and storage warning toast.
 
 ### Fixed
 - Persist flashcard progress across refresh by restoring theme/filter/current word.
